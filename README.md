@@ -1,5 +1,7 @@
 # Participant pack
 
+> 📊 **Team presentation (PowerPoint):** [Open the slides](https://1drv.ms/p/c/452bbf4f79367bf5/IQAgpFwCxMoKRpprHfZaDRsdAQ55lPyPNkZUw1Ga3Bgbkoo)
+
 ## TL;DR
 
 - `train.csv` has 10,000 transactions with the answer (`is_fraud`) included. Learn from it.
