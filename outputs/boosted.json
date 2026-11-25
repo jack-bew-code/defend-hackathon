@@ -1,0 +1,13 @@
+{
+  "name": "Gradient boosting (fraud/boosted-submission)",
+  "threshold": 0.20,
+  "validation": {
+    "description": "Last 2,000 training transactions (31 Jul - 31 Aug 2026), held out",
+    "points": 1245,
+    "max_points": 1500,
+    "caught": 140,
+    "false_alarms": 11,
+    "missed": 10
+  },
+  "notes": "HistGradientBoosting on all transaction signals. Flags when fraud probability >= 20%, the break-even point for the +10 / -5 / -10 scoring."
+}
