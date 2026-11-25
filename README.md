@@ -43,3 +43,23 @@ All data is synthetic. `train.csv` has an extra `is_fraud` column; `test.csv` do
 
 
 ---------------------------------Team based work-------------------------------
+
+## Gradient boosting submission
+
+Install the packages and generate the submission from the repository root.
+
+```sh
+python -m pip install -r requirements.txt
+python predict_fraud.py
+```
+
+The script reports each model's score on the latest 2,000 labeled transactions,
+then trains the boosted model on all labeled rows and writes
+`test_predictions.csv`. The file contains one row per test transaction with
+`transaction_id`, `reasons`, and `is_flagged`.
+
+The review cutoff is 20%. Under the challenge scoring, flagging a fraud earns
+20 points relative to missing it, while flagging a genuine transaction costs
+5 points. The cutoff is the break-even point when the estimated probabilities
+are calibrated. For flagged rows, the script shows observed feature values
+whose replacement with a common genuine value lowered the model's score.
