@@ -4,7 +4,13 @@ import unittest
 import pandas as pd
 
 # Test the public scoring and splitting functions used by the workflow.
-from fraud_detection.model import make_features, score_rules, split_data
+from fraud_detection.model import (
+    make_features,
+    score_decision_tree,
+    score_rules,
+    split_data,
+    train_decision_tree,
+)
 
 
 class FraudModelTests(unittest.TestCase):
@@ -42,6 +48,16 @@ class FraudModelTests(unittest.TestCase):
         self.assertEqual(features.loc[0, "timestamp_is_weekend"], 1)
         self.assertNotIn("is_fraud", features.columns)
         self.assertNotIn("transaction_id", features.columns)
+
+        # Fit a tiny tree with both labels and check that even unflagged output
+        # rows explain their probability-versus-cutoff decision.
+        genuine = transactions.copy()
+        genuine["transaction_id"] = "tx-genuine"
+        genuine["is_fraud"] = 0
+        learn = pd.concat([genuine, transactions], ignore_index=True)
+        model = train_decision_tree(learn, {"max_depth": 2})
+        predictions = score_decision_tree(model, learn, probability_threshold=0.5)
+        self.assertTrue(predictions["reasons"].str.strip().ne("").all())
 
     def test_rules_apply_comparators_weights_threshold_and_zero_weight(self) -> None:
         # Create a few transactions covering both the >= and == conditions.
@@ -103,8 +119,15 @@ class FraudModelTests(unittest.TestCase):
 
         self.assertEqual(result["risk_score"].tolist(), [2, 3, 2])
         self.assertEqual(result["is_flagged"].tolist(), [0, 1, 0])
-        self.assertEqual(result.loc[0, "reasons"], "Three or more failed logins")
+        self.assertIn("Three or more failed logins", result.loc[0, "reasons"])
         self.assertNotIn("Disabled rule", " ".join(result["reasons"]))
+        self.assertTrue(result["reasons"].str.strip().ne("").all())
+
+        # Even when no rule matches, every transaction still explains why it
+        # was not flagged.
+        no_match = score_rules(transactions, {"threshold": 1, "items": []})
+        self.assertTrue(no_match["reasons"].str.contains("No weighted rules matched").all())
+        self.assertTrue(no_match["reasons"].str.strip().ne("").all())
 
     def test_split_uses_configured_row_counts(self) -> None:
         # Build a small labeled dataset with equal numbers of both classes.

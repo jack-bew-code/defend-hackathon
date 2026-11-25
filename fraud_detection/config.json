@@ -1,10 +1,10 @@
 {
-  "practice_rows": 1000,
+  "practice_rows": 2000,
   "random_state": 0,
   "prediction_method": "decision_tree",
   "decision_tree": {
     "max_depth": 6,
-    "probability_threshold": 0.15
+    "probability_threshold": 0.2
   },
   "rules": {
     "threshold": 2,

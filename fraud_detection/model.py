@@ -269,8 +269,21 @@ def score_rules(transactions: pd.DataFrame, settings: dict[str, Any]) -> pd.Data
                 reasons[position].append(rule["name"])
 
     # A transaction is flagged when its total points meet the configured
-    # threshold; assemble scores, explanations, and 1/0 decisions in a table.
+    # threshold; finish a readable explanation for both yes and no decisions.
     flagged = scores >= settings["threshold"]
+    threshold = settings["threshold"]
+    for position, (score, is_flagged) in enumerate(zip(scores, flagged)):
+        matched_rules = reasons[position]
+        if matched_rules:
+            explanation = f"Matched rules: {', '.join(matched_rules)}"
+        else:
+            explanation = "No weighted rules matched"
+        if is_flagged:
+            decision = f"Flagged: score {score:g} meets threshold {threshold:g}"
+        else:
+            decision = f"Not flagged: score {score:g} is below threshold {threshold:g}"
+        reasons[position] = [explanation, decision]
+
     return pd.DataFrame(
         {
             "transaction_id": transactions["transaction_id"],
@@ -298,12 +311,18 @@ def score_decision_tree(
     probabilities = model.predict_proba(make_features(transactions))[:, fraud_class[0]]
     # Compare each probability with the configured cutoff to make a 1/0 flag.
     flagged = probabilities >= probability_threshold
-    # Include the probability in the reason for flagged rows so the result is
-    # easier for a human reviewer to interpret.
+    # Explain the probability comparison for every row, including those that
+    # are not flagged, so no output decision has a blank reason.
     reasons = [
-        f"Decision tree probability {probability:.1%}"
+        (
+            f"Flagged: estimated fraud probability {probability:.1%} meets or "
+            f"exceeds cutoff {probability_threshold:.1%}"
+        )
         if is_flagged
-        else ""
+        else (
+            f"Not flagged: estimated fraud probability {probability:.1%} is "
+            f"below cutoff {probability_threshold:.1%}"
+        )
         for probability, is_flagged in zip(probabilities, flagged)
     ]
     # Return the transaction ID, percentage risk score, explanation, and flag.
@@ -356,12 +375,20 @@ def evaluate_practice(
     caught = int((flags & fraud).sum())
     false_alarms = int((flags & ~fraud).sum())
     missed = int((~flags & fraud).sum())
+    practice_rounds = len(practice)
+    fraud_transactions = int(fraud.sum())
+    not_flagged = int((~flags).sum())
     # Use the hackathon scoring rules to calculate the overall practice score.
     return {
         "points": 10 * caught - 5 * false_alarms - 10 * missed,
+        "maximum_points": 10 * fraud_transactions,
         "caught": caught,
         "false_alarms": false_alarms,
         "missed": missed,
+        "not_flagged": not_flagged,
+        "flagged": practice_rounds - not_flagged,
+        "fraud_transactions": fraud_transactions,
+        "practice_rounds": practice_rounds,
     }
 
 
@@ -409,6 +436,8 @@ def run(
     # Return the useful results as well as the model, allowing a Streamlit app
     # to display metrics or reuse the fitted model without reading output files.
     return {
+        "training_rows": len(learn),
+        "learning_rows": len(learn),
         "learn_rows": len(learn),
         "practice_rows": len(practice),
         "test_rows": len(test),
@@ -438,15 +467,26 @@ def main() -> None:
     # Run the complete workflow, then show row counts and practice performance.
     result = run(training_rows, args.config, args.output_dir)
     print(
-        f"learn: {result['learn_rows']:,} rows; "
-        f"practice: {result['practice_rows']:,} rows; "
-        f"test: {result['test_rows']:,} rows"
+        f"Rows: {result['training_rows']:,} training/learning, "
+        f"{result['practice_rows']:,} practice, "
+        f"{result['test_rows']:,} testing"
     )
     practice = result["practice_results"]
     print(
-        f"Practice points: {practice['points']} "
-        f"(caught {practice['caught']} fraud, "
-        f"{practice['false_alarms']} false alarms, missed {practice['missed']})"
+        f"Practice rounds: {practice['practice_rounds']:,} transactions"
+    )
+    print(
+        f"Practice points: {practice['points']} / "
+        f"{practice['maximum_points']} maximum possible"
+    )
+    print(
+        f"Correctly caught fraud: {practice['caught']}; "
+        f"false alarms: {practice['false_alarms']}; "
+        f"missed fraud: {practice['missed']}"
+    )
+    print(
+        f"Practice transactions flagged: {practice['flagged']}; "
+        f"not flagged: {practice['not_flagged']}"
     )
     # Test answers are intentionally unknown; report only how many were flagged.
     print(f"Flagged {result['flagged_test_rows']:,} test transactions.")

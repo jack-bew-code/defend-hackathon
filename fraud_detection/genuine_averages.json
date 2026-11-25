@@ -1,11 +1,11 @@
 {
-  "typical_monthly_spend_gbp": 1320.109,
-  "amount_gbp": 104.146,
+  "typical_monthly_spend_gbp": 1321.128,
+  "amount_gbp": 104.175,
   "amount_vs_typical": 0.113,
-  "hour_of_day": 14.053,
-  "foreign_transaction": 0.127,
-  "unknown_device": 0.076,
-  "failed_logins": 0.212,
+  "hour_of_day": 14.02,
+  "foreign_transaction": 0.128,
+  "unknown_device": 0.075,
+  "failed_logins": 0.21,
   "new_payee": 0.018,
-  "travel_notice": 0.074
+  "travel_notice": 0.075
 }

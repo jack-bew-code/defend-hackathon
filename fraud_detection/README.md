@@ -12,7 +12,7 @@ pip install -r requirements.txt
 Then run the model and its focused tests:
 
 ```bash
-python -m fraud_detection.model --training-rows 9000
+python -m fraud_detection.model --training-rows 8000
 python -m unittest fraud_detection.test_model
 ```
 
@@ -20,6 +20,8 @@ The program loads `train.csv` and `test.csv` using the repository's shared data
 loader. If `--training-rows` is omitted, it prompts for the number of training
 rows. The held-out practice-set size and scoring options are read from
 [`config.json`](./config.json).
+With the current 2,000-row practice setting, use 8,000 training rows so the
+requested sets fit within the 10,000 rows in `train.csv`.
 
 The practice size must fit alongside the requested training size. Any remaining
 training rows are not used. Practice labels are checked only after training;
@@ -42,6 +44,10 @@ when `prediction_method` is set to `weighted_rules`.
 The program writes `practice_predictions.csv`, `test_predictions.csv`, and
 `genuine_averages.json` to this folder by default. Genuine averages are
 calculated using only genuine rows in the learn set.
+Every prediction includes a reason, including transactions that are not
+flagged. The command-line summary reports training/learning, practice, and
+testing row counts; points out of the practice maximum; caught fraud, false
+alarms, missed fraud; and the total flagged and unflagged practice transactions.
 
 The functions in [`model.py`](./model.py) can be imported by a Streamlit UI,
 without requiring Streamlit as a dependency:
