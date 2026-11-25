@@ -74,3 +74,23 @@ gh pr create --fill                           # or open a PR on github.com
 - Load data with `from src.data import load_train, load_test` so paths work from any folder
   (in `notebooks/`, first run `import sys; sys.path.append('..')`).
 - Keep branches short-lived. Merge within hours, and `git pull origin main` into your branch if main moves on.
+
+## Gradient boosting submission
+
+Install the packages and generate the submission from the repository root.
+
+```sh
+python -m pip install -r requirements.txt
+python predict_fraud.py
+```
+
+The script reports each model's score on the latest 2,000 labeled transactions,
+then trains the boosted model on all labeled rows and writes
+`test_predictions.csv`. The file contains one row per test transaction with
+`transaction_id`, `reasons`, and `is_flagged`.
+
+The review cutoff is 20%. Under the challenge scoring, flagging a fraud earns
+20 points relative to missing it, while flagging a genuine transaction costs
+5 points. The cutoff is the break-even point when the estimated probabilities
+are calibrated. For flagged rows, the script shows observed feature values
+whose replacement with a common genuine value lowered the model's score.
