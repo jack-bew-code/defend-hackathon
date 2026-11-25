@@ -40,3 +40,6 @@ All data is synthetic. `train.csv` has an extra `is_fraud` column; `test.csv` do
 | `new_payee` | 1 if a transfer went to a recently added recipient |
 | `travel_notice` | 1 if the customer told the bank they were travelling to that country |
 | `is_fraud` | (`train.csv` only) 1 = fraud, 0 = genuine |
+
+
+---------------------------------Team based work-------------------------------
