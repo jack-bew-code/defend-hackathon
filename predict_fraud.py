@@ -8,7 +8,7 @@ from sklearn.tree import DecisionTreeClassifier
 from threadpoolctl import threadpool_limits
 
 from src.data import ROOT, load_test, load_train
-from src.features import HISTORY_FEATURES, add_features
+from src.features import HISTORY_FEATURES, RED_FLAG_FEATURES, add_features
 
 # Flag when P(fraud) > 0.2: flagging is worth 10p - 5(1-p), not flagging is -10p.
 THRESHOLD = 0.20
@@ -29,7 +29,12 @@ SIGNALS = {
     "new_payee": "New payee",
     "travel_notice": "Travel notice",
 }
-WITH_HISTORY = {**SIGNALS, **HISTORY_FEATURES}
+WITH_RED_FLAGS = {**SIGNALS, **RED_FLAG_FEATURES}   # used for the submission
+WITH_HISTORY = {**SIGNALS, **HISTORY_FEATURES}      # adds per-customer history (didn't help)
+# Original settings from fraud/boosted-submission, and the tuned ones: smaller
+# trees + slower learning scored higher in every validation fold.
+ORIGINAL_PARAMS = dict(max_iter=170, max_leaf_nodes=15)
+TUNED_PARAMS = dict(learning_rate=0.03, max_iter=500, max_leaf_nodes=7, l2_regularization=1.0)
 BASELINE_FEATURES = [
     "amount_gbp", "amount_vs_typical", "hour_of_day", "foreign_transaction",
     "unknown_device", "failed_logins", "new_payee", "travel_notice",
@@ -43,17 +48,15 @@ def encode(transactions, signals, columns=None):
     return encoded
 
 
-def fit_boosted(transactions, signals):
+def fit_boosted(transactions, signals, params=TUNED_PARAMS):
     features = encode(transactions, signals)
-    model = HistGradientBoostingClassifier(
-        max_iter=170, max_leaf_nodes=15, random_state=0
-    )
+    model = HistGradientBoostingClassifier(random_state=0, **params)
     model.fit(features, transactions[TARGET])
     return model, features.columns
 
 
-def boosted_risk(learn, holdout, signals):
-    model, columns = fit_boosted(learn, signals)
+def boosted_risk(learn, holdout, signals, params=TUNED_PARAMS):
+    model, columns = fit_boosted(learn, signals, params)
     return model.predict_proba(encode(holdout, signals, columns))[:, 1]
 
 
@@ -89,8 +92,10 @@ def time_folds(train):
 def validate_models(train):
     models = {
         "Starter tree": baseline_risk,
-        "Boosting (original features)": lambda a, b: boosted_risk(a, b, SIGNALS),
-        "Boosting + customer history": lambda a, b: boosted_risk(a, b, WITH_HISTORY),
+        "Boosting, original (teammate's)": lambda a, b: boosted_risk(a, b, SIGNALS, ORIGINAL_PARAMS),
+        "Boosting, tuned": lambda a, b: boosted_risk(a, b, SIGNALS),
+        "Boosting, tuned + red flags": lambda a, b: boosted_risk(a, b, WITH_RED_FLAGS),
+        "Boosting, tuned + all history": lambda a, b: boosted_risk(a, b, WITH_HISTORY),
     }
     totals = {name: np.zeros(4, dtype=int) for name in models}
     print(f"Time-based validation: {N_FOLDS} folds of {FOLD_SIZE:,}, all at {THRESHOLD:.0%} cutoff")
@@ -99,10 +104,11 @@ def validate_models(train):
         for name, risk_fn in models.items():
             result = score(holdout[TARGET], risk_fn(learn, holdout) >= THRESHOLD)
             totals[name] += result
-            print(f"    {name:30s} {result[0]:>6,} pts")
-    print("Totals across folds:")
+            print(f"    {name:32s} {result[0]:>6,} pts")
+    perfect = 10 * sum(holdout[TARGET].sum() for _, holdout in time_folds(train))
+    print(f"Totals across folds (perfect score would be {perfect:,}):")
     for name, (points, caught, false_alarms, missed) in totals.items():
-        print(f"  {name:30s} {points:>6,} pts | {caught} caught | "
+        print(f"  {name:32s} {points:>6,} pts | {caught} caught | "
               f"{false_alarms} false alarms | {missed} missed")
 
 
@@ -150,8 +156,8 @@ def make_submission(train, test, signals):
 def main():
     parser = argparse.ArgumentParser(description="Validate the fraud model and export predictions.")
     parser.add_argument("--output", type=Path, default=ROOT / "test_predictions.csv")
-    parser.add_argument("--no-history", action="store_true",
-                        help="Submit with the original features only (no customer history).")
+    parser.add_argument("--features", choices=["red-flags", "original", "all-history"],
+                        default="red-flags", help="Feature set for the submission model.")
     args = parser.parse_args()
 
     train, test = load_train(), load_test()
@@ -161,13 +167,13 @@ def main():
     train, test = both.loc["train"], both.loc["test"].drop(columns=[TARGET])
     train[TARGET] = train[TARGET].astype(int)
 
-    signals = SIGNALS if args.no_history else WITH_HISTORY
+    signals = {"red-flags": WITH_RED_FLAGS, "original": SIGNALS, "all-history": WITH_HISTORY}[args.features]
     with threadpool_limits(limits=2):
         validate_models(train)
         output = make_submission(train, test, signals)
     output.to_csv(args.output, index=False)
     print(f"Saved {args.output}: {len(output):,} rows, {output['is_flagged'].sum()} flagged "
-          f"({'original' if args.no_history else 'with customer history'} features)")
+          f"({args.features} features)")
 
 
 if __name__ == "__main__":

@@ -11,7 +11,18 @@ September (test) rows use each customer's April-August history.
 import numpy as np
 import pandas as pd
 
-HISTORY_FEATURES = {
+# Combinations of red flags. These help the model (see predict_fraud.py validation).
+RED_FLAG_FEATURES = {
+    "foreign_no_notice": "Foreign with no travel notice",
+    "unknown_device_failed_logins": "Unknown device x failed logins",
+    "transfer_to_new_payee": "Bank transfer to new payee",
+    "is_night": "Night-time (00:00-05:59)",
+    "round_amount": "Round £100 amount",
+}
+# Per-customer history. Tested in time-based validation: these did NOT improve
+# the score on this dataset (fraud looks per-transaction, not per-customer),
+# so the model doesn't use them. Kept here for exploration.
+CUSTOMER_HISTORY_FEATURES = {
     "cust_prior_txns": "Customer's previous transactions",
     "hours_since_prev": "Hours since customer's last transaction",
     "txns_last_1h": "Customer transactions in previous hour",
@@ -21,11 +32,8 @@ HISTORY_FEATURES = {
     "hours_from_usual_time": "Hours from customer's usual time",
     "first_time_country": "First transaction in this country",
     "first_time_type": "First transaction of this type",
-    "foreign_no_notice": "Foreign with no travel notice",
-    "unknown_device_failed_logins": "Unknown device x failed logins",
-    "transfer_to_new_payee": "Bank transfer to new payee",
-    "is_night": "Night-time (00:00-05:59)",
 }
+HISTORY_FEATURES = {**RED_FLAG_FEATURES, **CUSTOMER_HISTORY_FEATURES}
 
 
 def _count_recent(times: pd.Series, window: np.timedelta64) -> np.ndarray:
@@ -75,9 +83,11 @@ def add_features(df: pd.DataFrame) -> pd.DataFrame:
     out["unknown_device_failed_logins"] = out["unknown_device"] * out["failed_logins"]
     out["transfer_to_new_payee"] = out["transaction_type"].eq("BANK_TRANSFER") & out["new_payee"].eq(1)
     out["is_night"] = out["hour_of_day"].between(0, 5)
+    # 72% of frauds in train are exact £100 multiples vs 9% of genuine
+    out["round_amount"] = out["amount_gbp"].mod(100).eq(0)
 
     bools = ["first_time_country", "first_time_type", "foreign_no_notice",
-             "transfer_to_new_payee", "is_night"]
+             "transfer_to_new_payee", "is_night", "round_amount"]
     out[bools] = out[bools].astype(int)
 
     out = out.sort_values("_order").drop(columns=["_ts", "_order"])
