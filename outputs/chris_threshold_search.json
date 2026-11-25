@@ -1,0 +1,13 @@
+{
+  "name": "Chris – ensemble with cutoff search",
+  "threshold": 0.62,
+  "validation": {
+    "description": "Last 2,000 training transactions (31 Jul - 31 Aug 2026). The 0.62 cutoff was chosen on this same holdout, so this score is optimistic",
+    "points": 1250,
+    "max_points": 1500,
+    "caught": 138,
+    "false_alarms": 2,
+    "missed": 12
+  },
+  "notes": "Voting ensemble (gradient boosting, random forest, extra trees) with time-of-day and calendar features. Searches cutoffs from 0.05 to 0.80 and keeps the one that scores best on the holdout: very few false alarms (precision 98.6%), slightly more missed fraud."
+}

@@ -1,0 +1,2001 @@
+transaction_id,risk_score,reasons,is_flagged
+TX-TEST-00001,0.9930224609432933,Amount unusually high | New payee | Multiple failed logins | Bank transfer | Overnight transaction,1
+TX-TEST-00002,0.1280743954871845,Overnight transaction,0
+TX-TEST-00003,0.030211127361823017,Overnight transaction,0
+TX-TEST-00004,0.00940393120262191,Model identified elevated combined risk,0
+TX-TEST-00005,0.17955512710483731,Foreign transaction without travel notice,0
+TX-TEST-00006,0.11923595552261348,Model identified elevated combined risk,0
+TX-TEST-00007,0.19162355961575514,Multiple failed logins,0
+TX-TEST-00008,0.12802886847653294,Model identified elevated combined risk,0
+TX-TEST-00009,0.0441734882786212,Unknown device,0
+TX-TEST-00010,0.028354868106811766,Bank transfer,0
+TX-TEST-00011,0.010046570088574397,Model identified elevated combined risk,0
+TX-TEST-00012,0.003815481743084591,Model identified elevated combined risk,0
+TX-TEST-00013,0.005840490064985676,Model identified elevated combined risk,0
+TX-TEST-00014,0.004922010927568729,Model identified elevated combined risk,0
+TX-TEST-00015,0.06569847151865353,Bank transfer,0
+TX-TEST-00016,0.014114412821796082,Model identified elevated combined risk,0
+TX-TEST-00017,0.05051502873821601,Model identified elevated combined risk,0
+TX-TEST-00018,0.010830729460937034,Model identified elevated combined risk,0
+TX-TEST-00019,0.013458736364554622,Multiple failed logins,0
+TX-TEST-00020,0.004248428670778227,Model identified elevated combined risk,0
+TX-TEST-00021,0.9905746989044664,Multiple failed logins | Unknown device,1
+TX-TEST-00022,0.009108156662454773,Model identified elevated combined risk,0
+TX-TEST-00023,0.008936232427098803,Model identified elevated combined risk,0
+TX-TEST-00024,0.9965904160627878,Amount unusually high | New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-00025,0.0665165461721325,Model identified elevated combined risk,0
+TX-TEST-00026,0.004677765320258213,Model identified elevated combined risk,0
+TX-TEST-00027,0.05123465565663285,Model identified elevated combined risk,0
+TX-TEST-00028,0.15482655476042984,Model identified elevated combined risk,0
+TX-TEST-00029,0.04954049080379743,Unknown device | Bank transfer,0
+TX-TEST-00030,0.9828733265795611,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-00031,0.028867465289143652,Bank transfer,0
+TX-TEST-00032,0.007020733944195885,Foreign transaction without travel notice,0
+TX-TEST-00033,0.0032236145807770433,Model identified elevated combined risk,0
+TX-TEST-00034,0.014554135314622369,Model identified elevated combined risk,0
+TX-TEST-00035,0.004076998691293068,Model identified elevated combined risk,0
+TX-TEST-00036,0.0033951874047484856,Multiple failed logins,0
+TX-TEST-00037,0.005383858012426645,Model identified elevated combined risk,0
+TX-TEST-00038,0.0073772836559683015,Model identified elevated combined risk,0
+TX-TEST-00039,0.004994807794672082,Model identified elevated combined risk,0
+TX-TEST-00040,0.13603246084927276,Model identified elevated combined risk,0
+TX-TEST-00041,0.003365054293117125,Multiple failed logins,0
+TX-TEST-00042,0.05686578295802922,Bank transfer,0
+TX-TEST-00043,0.014744024399920569,Model identified elevated combined risk,0
+TX-TEST-00044,0.1251420228370092,Model identified elevated combined risk,0
+TX-TEST-00045,0.003508370383329629,Multiple failed logins,0
+TX-TEST-00046,0.004973745769607982,Model identified elevated combined risk,0
+TX-TEST-00047,0.014130830085014099,Model identified elevated combined risk,0
+TX-TEST-00048,0.05133729205207556,Model identified elevated combined risk,0
+TX-TEST-00049,0.05443262983841663,Model identified elevated combined risk,0
+TX-TEST-00050,0.00973245983096964,Model identified elevated combined risk,0
+TX-TEST-00051,0.05239235422881991,Model identified elevated combined risk,0
+TX-TEST-00052,0.08169354965795128,Model identified elevated combined risk,0
+TX-TEST-00053,0.045746240008283305,Model identified elevated combined risk,0
+TX-TEST-00054,0.05300553150305932,Model identified elevated combined risk,0
+TX-TEST-00055,0.005742861162010565,Model identified elevated combined risk,0
+TX-TEST-00056,0.00491466510355638,Model identified elevated combined risk,0
+TX-TEST-00057,0.11690309568969692,Bank transfer,0
+TX-TEST-00058,0.0075339800403187345,Model identified elevated combined risk,0
+TX-TEST-00059,0.013110158143149054,Model identified elevated combined risk,0
+TX-TEST-00060,0.054026793111590296,Model identified elevated combined risk,0
+TX-TEST-00061,0.13555886881399143,Model identified elevated combined risk,0
+TX-TEST-00062,0.09063252590108706,Bank transfer,0
+TX-TEST-00063,0.18001427221176416,Model identified elevated combined risk,0
+TX-TEST-00064,0.04041053373082491,Model identified elevated combined risk,0
+TX-TEST-00065,0.05829490255244362,Model identified elevated combined risk,0
+TX-TEST-00066,0.06903691571055871,Bank transfer,0
+TX-TEST-00067,0.10429276893508078,Unknown device | Bank transfer,0
+TX-TEST-00068,0.004972831269456457,Model identified elevated combined risk,0
+TX-TEST-00069,0.008753324437983349,Model identified elevated combined risk,0
+TX-TEST-00070,0.9978124701826885,Amount unusually high | New payee | Multiple failed logins | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-00071,0.993146586232734,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00072,0.0766601118019545,Bank transfer | Overnight transaction,0
+TX-TEST-00073,0.993396825246348,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00074,0.04857188978577982,Model identified elevated combined risk,0
+TX-TEST-00075,0.004801279462656439,Model identified elevated combined risk,0
+TX-TEST-00076,0.0601104171485657,Amount unusually high | Foreign transaction without travel notice,0
+TX-TEST-00077,0.047134907982977814,Model identified elevated combined risk,0
+TX-TEST-00078,0.047134907982977814,Model identified elevated combined risk,0
+TX-TEST-00079,0.004278481159085916,Model identified elevated combined risk,0
+TX-TEST-00080,0.026072826122774034,Bank transfer,0
+TX-TEST-00081,0.006000549194114589,Foreign transaction without travel notice,0
+TX-TEST-00082,0.003824631535047021,Foreign transaction without travel notice,0
+TX-TEST-00083,0.007061539139245885,Model identified elevated combined risk,0
+TX-TEST-00084,0.010253205025261352,Model identified elevated combined risk,0
+TX-TEST-00085,0.005480037987096788,Model identified elevated combined risk,0
+TX-TEST-00086,0.009313529504635024,Model identified elevated combined risk,0
+TX-TEST-00087,0.0483837806684269,Model identified elevated combined risk,0
+TX-TEST-00088,0.06041700036219922,Foreign transaction without travel notice,0
+TX-TEST-00089,0.005012961234118869,Model identified elevated combined risk,0
+TX-TEST-00090,0.01622417736971309,Model identified elevated combined risk,0
+TX-TEST-00091,0.05023517116095979,Model identified elevated combined risk,0
+TX-TEST-00092,0.1261821010792063,Model identified elevated combined risk,0
+TX-TEST-00093,0.010473544189640306,Model identified elevated combined risk,0
+TX-TEST-00094,0.01329931140070715,Model identified elevated combined risk,0
+TX-TEST-00095,0.07657769383030572,Multiple failed logins,0
+TX-TEST-00096,0.13302007274662808,Model identified elevated combined risk,0
+TX-TEST-00097,0.1849867767959174,Foreign transaction without travel notice,0
+TX-TEST-00098,0.005524016950467263,Model identified elevated combined risk,0
+TX-TEST-00099,0.05360569700852479,Model identified elevated combined risk,0
+TX-TEST-00100,0.010389959304695759,Model identified elevated combined risk,0
+TX-TEST-00101,0.052555156781163515,Model identified elevated combined risk,0
+TX-TEST-00102,0.06485153009042693,Model identified elevated combined risk,0
+TX-TEST-00103,0.054798129177394246,Model identified elevated combined risk,0
+TX-TEST-00104,0.004705083613262913,Unknown device,0
+TX-TEST-00105,0.16528289729977647,Bank transfer,0
+TX-TEST-00106,0.04337714279254419,Model identified elevated combined risk,0
+TX-TEST-00107,0.0602973546716552,Model identified elevated combined risk,0
+TX-TEST-00108,0.9909550079920586,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-00109,0.06758029091224116,Foreign transaction without travel notice,0
+TX-TEST-00110,0.05695279109285865,Model identified elevated combined risk,0
+TX-TEST-00111,0.004696676709086532,Model identified elevated combined risk,0
+TX-TEST-00112,0.1132033016066203,Model identified elevated combined risk,0
+TX-TEST-00113,0.0047509168724041255,Model identified elevated combined risk,0
+TX-TEST-00114,0.010992851239232037,Model identified elevated combined risk,0
+TX-TEST-00115,0.0048740931730043915,Model identified elevated combined risk,0
+TX-TEST-00116,0.052846088423621936,Model identified elevated combined risk,0
+TX-TEST-00117,0.0047509168724041255,Model identified elevated combined risk,0
+TX-TEST-00118,0.13476426759291135,Model identified elevated combined risk,0
+TX-TEST-00119,0.004878613889122259,Model identified elevated combined risk,0
+TX-TEST-00120,0.0050927605080969,Model identified elevated combined risk,0
+TX-TEST-00121,0.013826815084647516,Model identified elevated combined risk,0
+TX-TEST-00122,0.011613215160837957,Model identified elevated combined risk,0
+TX-TEST-00123,0.010779987037843513,Model identified elevated combined risk,0
+TX-TEST-00124,0.008380138887735254,Model identified elevated combined risk,0
+TX-TEST-00125,0.027064821663967974,Multiple failed logins | Unknown device,0
+TX-TEST-00126,0.0033823937672194343,Model identified elevated combined risk,0
+TX-TEST-00127,0.9890693679065137,Amount unusually high | New payee | Multiple failed logins | Bank transfer,1
+TX-TEST-00128,0.9925995767528673,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-00129,0.0034803404872598104,Model identified elevated combined risk,0
+TX-TEST-00130,0.03174298600246105,Bank transfer,0
+TX-TEST-00131,0.04152867290552805,Model identified elevated combined risk,0
+TX-TEST-00132,0.13160655932699306,Model identified elevated combined risk,0
+TX-TEST-00133,0.004260376264131462,Model identified elevated combined risk,0
+TX-TEST-00134,0.04308895694866328,Unknown device | Bank transfer,0
+TX-TEST-00135,0.03930953779528963,Bank transfer,0
+TX-TEST-00136,0.028241574568894943,Bank transfer,0
+TX-TEST-00137,0.09147662982486308,Model identified elevated combined risk,0
+TX-TEST-00138,0.5027552334727006,New payee | Bank transfer,0
+TX-TEST-00139,0.03484516920600334,Multiple failed logins,0
+TX-TEST-00140,0.08076185559028294,Bank transfer,0
+TX-TEST-00141,0.003035722924826072,Multiple failed logins,0
+TX-TEST-00142,0.00942835731343015,Model identified elevated combined risk,0
+TX-TEST-00143,0.1374023654952958,Model identified elevated combined risk,0
+TX-TEST-00144,0.10290894944364007,Model identified elevated combined risk,0
+TX-TEST-00145,0.004374058957840814,Model identified elevated combined risk,0
+TX-TEST-00146,0.041467158726656544,Model identified elevated combined risk,0
+TX-TEST-00147,0.007279332630358073,Model identified elevated combined risk,0
+TX-TEST-00148,0.004315788159187067,Model identified elevated combined risk,0
+TX-TEST-00149,0.004335694255908388,Model identified elevated combined risk,0
+TX-TEST-00150,0.04592616940891827,Model identified elevated combined risk,0
+TX-TEST-00151,0.004315788159187067,Model identified elevated combined risk,0
+TX-TEST-00152,0.12396591892914505,Unknown device,0
+TX-TEST-00153,0.11882020944355459,Bank transfer,0
+TX-TEST-00154,0.03738024264502912,Model identified elevated combined risk,0
+TX-TEST-00155,0.11483355808448248,Bank transfer,0
+TX-TEST-00156,0.004312210063666875,Model identified elevated combined risk,0
+TX-TEST-00157,0.005071423641945557,Model identified elevated combined risk,0
+TX-TEST-00158,0.00858008476041075,Model identified elevated combined risk,0
+TX-TEST-00159,0.004312210063666875,Model identified elevated combined risk,0
+TX-TEST-00160,0.005201426700685038,Model identified elevated combined risk,0
+TX-TEST-00161,0.0035137638648683853,Multiple failed logins,0
+TX-TEST-00162,0.028606126705212048,Bank transfer,0
+TX-TEST-00163,0.03214759280125973,Multiple failed logins,0
+TX-TEST-00164,0.005137920099422285,Model identified elevated combined risk,0
+TX-TEST-00165,0.10687215956957637,Model identified elevated combined risk,0
+TX-TEST-00166,0.1362880872580034,Model identified elevated combined risk,0
+TX-TEST-00167,0.004886410821259301,Model identified elevated combined risk,0
+TX-TEST-00168,0.010445794818227687,Unknown device,0
+TX-TEST-00169,0.14439387663681927,Model identified elevated combined risk,0
+TX-TEST-00170,0.08744315744618915,Model identified elevated combined risk,0
+TX-TEST-00171,0.1382042852052264,Model identified elevated combined risk,0
+TX-TEST-00172,0.04343322583842951,Model identified elevated combined risk,0
+TX-TEST-00173,0.007906305718657258,Model identified elevated combined risk,0
+TX-TEST-00174,0.0046966908199223495,Model identified elevated combined risk,0
+TX-TEST-00175,0.04439779453129224,Model identified elevated combined risk,0
+TX-TEST-00176,0.15128308748371333,Model identified elevated combined risk,0
+TX-TEST-00177,0.14308825906428763,Model identified elevated combined risk,0
+TX-TEST-00178,0.030295185339513232,Bank transfer,0
+TX-TEST-00179,0.10208824780044391,Model identified elevated combined risk,0
+TX-TEST-00180,0.004877123536229922,Model identified elevated combined risk,0
+TX-TEST-00181,0.15725212282665835,Model identified elevated combined risk,0
+TX-TEST-00182,0.05911810918300969,Model identified elevated combined risk,0
+TX-TEST-00183,0.08942828991969938,Model identified elevated combined risk,0
+TX-TEST-00184,0.009189277147275684,Model identified elevated combined risk,0
+TX-TEST-00185,0.026515896291612207,Bank transfer,0
+TX-TEST-00186,0.0034873816164547747,Model identified elevated combined risk,0
+TX-TEST-00187,0.002838974147471689,Model identified elevated combined risk,0
+TX-TEST-00188,0.003159276539289197,Model identified elevated combined risk,0
+TX-TEST-00189,0.00151803821743384,Model identified elevated combined risk,0
+TX-TEST-00190,0.04712170592772191,Model identified elevated combined risk,0
+TX-TEST-00191,0.0030579443289295663,Model identified elevated combined risk,0
+TX-TEST-00192,0.985425962023161,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-00193,0.9975290699130567,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00194,0.9956554643609815,Amount unusually high | New payee | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-00195,0.9928509799819702,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00196,0.20623747019537772,New payee | Bank transfer | Overnight transaction,0
+TX-TEST-00197,0.9974665496927115,Amount unusually high | Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00198,0.08587691741521179,Bank transfer | Overnight transaction,0
+TX-TEST-00199,0.054395093057891516,Model identified elevated combined risk,0
+TX-TEST-00200,0.007531083404342373,Model identified elevated combined risk,0
+TX-TEST-00201,0.08620962251647409,Bank transfer,0
+TX-TEST-00202,0.041063265582792684,Model identified elevated combined risk,0
+TX-TEST-00203,0.03955487852188413,Bank transfer,0
+TX-TEST-00204,0.0048385390251516275,Model identified elevated combined risk,0
+TX-TEST-00205,0.06704826716115232,Unknown device,0
+TX-TEST-00206,0.006387871436033928,Model identified elevated combined risk,0
+TX-TEST-00207,0.09294484712033146,Model identified elevated combined risk,0
+TX-TEST-00208,0.004493686255202397,Model identified elevated combined risk,0
+TX-TEST-00209,0.0898196104122663,Model identified elevated combined risk,0
+TX-TEST-00210,0.006809356948968862,Model identified elevated combined risk,0
+TX-TEST-00211,0.004122910846787861,Model identified elevated combined risk,0
+TX-TEST-00212,0.006882307104532012,Model identified elevated combined risk,0
+TX-TEST-00213,0.00685817300886613,Multiple failed logins,0
+TX-TEST-00214,0.04430231223923384,Model identified elevated combined risk,0
+TX-TEST-00215,0.004450917752496546,Model identified elevated combined risk,0
+TX-TEST-00216,0.04307118324569208,Model identified elevated combined risk,0
+TX-TEST-00217,0.02558300389541382,Unknown device | Bank transfer,0
+TX-TEST-00218,0.11957834156608069,Model identified elevated combined risk,0
+TX-TEST-00219,0.08178234435119228,Model identified elevated combined risk,0
+TX-TEST-00220,0.008755765603038116,Model identified elevated combined risk,0
+TX-TEST-00221,0.04404722042630449,Model identified elevated combined risk,0
+TX-TEST-00222,0.03966128276496449,Foreign transaction without travel notice,0
+TX-TEST-00223,0.09828683739903962,Model identified elevated combined risk,0
+TX-TEST-00224,0.0038868519050504102,Foreign transaction without travel notice,0
+TX-TEST-00225,0.010178550742109875,Model identified elevated combined risk,0
+TX-TEST-00226,0.1197332625130776,Model identified elevated combined risk,0
+TX-TEST-00227,0.04414037560356207,Model identified elevated combined risk,0
+TX-TEST-00228,0.004935664082717529,Model identified elevated combined risk,0
+TX-TEST-00229,0.027632963598114037,Model identified elevated combined risk,0
+TX-TEST-00230,0.008754485868455633,Model identified elevated combined risk,0
+TX-TEST-00231,0.11676695485414834,Model identified elevated combined risk,0
+TX-TEST-00232,0.0482417781260775,Model identified elevated combined risk,0
+TX-TEST-00233,0.004504892649026567,Model identified elevated combined risk,0
+TX-TEST-00234,0.15575781717445605,Model identified elevated combined risk,0
+TX-TEST-00235,0.11365411171915069,Unknown device,0
+TX-TEST-00236,0.08846452803358741,Model identified elevated combined risk,0
+TX-TEST-00237,0.01199671577822852,Model identified elevated combined risk,0
+TX-TEST-00238,0.9830438470456954,Amount unusually high | New payee | Bank transfer,1
+TX-TEST-00239,0.04543253490539982,Model identified elevated combined risk,0
+TX-TEST-00240,0.030959582440701478,Model identified elevated combined risk,0
+TX-TEST-00241,0.04488555451184878,Model identified elevated combined risk,0
+TX-TEST-00242,0.005582733977680053,Model identified elevated combined risk,0
+TX-TEST-00243,0.08949850457434401,Unknown device,0
+TX-TEST-00244,0.00450157866238872,Model identified elevated combined risk,0
+TX-TEST-00245,0.004495957209625251,Model identified elevated combined risk,0
+TX-TEST-00246,0.15873495607480279,Model identified elevated combined risk,0
+TX-TEST-00247,0.11743590553893501,Model identified elevated combined risk,0
+TX-TEST-00248,0.005139891639130606,Model identified elevated combined risk,0
+TX-TEST-00249,0.16217333703969908,Model identified elevated combined risk,0
+TX-TEST-00250,0.1013659963721584,Model identified elevated combined risk,0
+TX-TEST-00251,0.24931502932795302,New payee | Bank transfer,0
+TX-TEST-00252,0.020851401817193492,Overnight transaction,0
+TX-TEST-00253,0.12481003637866436,Overnight transaction,0
+TX-TEST-00254,0.9961229947347138,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00255,0.9891943424958152,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00256,0.9978271760650415,Amount unusually high | New payee | Multiple failed logins | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-00257,0.9911717339135112,Amount unusually high | New payee | Bank transfer | Overnight transaction,1
+TX-TEST-00258,0.004260313402592502,Model identified elevated combined risk,0
+TX-TEST-00259,0.025354099863241223,Model identified elevated combined risk,0
+TX-TEST-00260,0.004170331008801512,Model identified elevated combined risk,0
+TX-TEST-00261,0.9962924629192271,Amount unusually high | New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-00262,0.9774195475105971,Multiple failed logins | Unknown device,1
+TX-TEST-00263,0.0358232499791054,Model identified elevated combined risk,0
+TX-TEST-00264,0.04931583437595902,Foreign transaction without travel notice,0
+TX-TEST-00265,0.009099186526953023,Model identified elevated combined risk,0
+TX-TEST-00266,0.28125575749857945,New payee | Bank transfer,0
+TX-TEST-00267,0.003924069696237789,Model identified elevated combined risk,0
+TX-TEST-00268,0.0064080137105364055,Model identified elevated combined risk,0
+TX-TEST-00269,0.035715477774735216,Model identified elevated combined risk,0
+TX-TEST-00270,0.019468222152585486,Bank transfer,0
+TX-TEST-00271,0.004946099927757013,Model identified elevated combined risk,0
+TX-TEST-00272,0.032782193234385935,Model identified elevated combined risk,0
+TX-TEST-00273,0.009782009734328601,Model identified elevated combined risk,0
+TX-TEST-00274,0.08306485981481987,Model identified elevated combined risk,0
+TX-TEST-00275,0.05243765991100505,Model identified elevated combined risk,0
+TX-TEST-00276,0.08569851506098332,Model identified elevated combined risk,0
+TX-TEST-00277,0.0329112273009881,Model identified elevated combined risk,0
+TX-TEST-00278,0.004221601757876643,Model identified elevated combined risk,0
+TX-TEST-00279,0.0329112273009881,Model identified elevated combined risk,0
+TX-TEST-00280,0.004221601757876643,Model identified elevated combined risk,0
+TX-TEST-00281,0.03496050361602135,Model identified elevated combined risk,0
+TX-TEST-00282,0.005559306809442065,Model identified elevated combined risk,0
+TX-TEST-00283,0.004689051767515958,Model identified elevated combined risk,0
+TX-TEST-00284,0.1987903761736134,Model identified elevated combined risk,0
+TX-TEST-00285,0.003998508873256922,Model identified elevated combined risk,0
+TX-TEST-00286,0.13811164082181107,Model identified elevated combined risk,0
+TX-TEST-00287,0.9940828526312777,Amount unusually high | New payee | Unknown device | Bank transfer,1
+TX-TEST-00288,0.018076998139634936,Bank transfer,0
+TX-TEST-00289,0.07768576709934859,Model identified elevated combined risk,0
+TX-TEST-00290,0.9123918238989752,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-00291,0.004438839268030756,Model identified elevated combined risk,0
+TX-TEST-00292,0.009142984685348857,Model identified elevated combined risk,0
+TX-TEST-00293,0.006411668176482228,Model identified elevated combined risk,0
+TX-TEST-00294,0.05414013951366303,Model identified elevated combined risk,0
+TX-TEST-00295,0.006242870028665502,Model identified elevated combined risk,0
+TX-TEST-00296,0.0036260210012477893,Model identified elevated combined risk,0
+TX-TEST-00297,0.07773807273002606,Unknown device,0
+TX-TEST-00298,0.005990753884761092,Model identified elevated combined risk,0
+TX-TEST-00299,0.010423138144408779,Model identified elevated combined risk,0
+TX-TEST-00300,0.040387595309608705,Model identified elevated combined risk,0
+TX-TEST-00301,0.0784707874999404,Model identified elevated combined risk,0
+TX-TEST-00302,0.03270266314419377,Model identified elevated combined risk,0
+TX-TEST-00303,0.004362070819711919,Model identified elevated combined risk,0
+TX-TEST-00304,0.03006026008207337,Unknown device,0
+TX-TEST-00305,0.004647330531014237,Model identified elevated combined risk,0
+TX-TEST-00306,0.005627375856638565,Model identified elevated combined risk,0
+TX-TEST-00307,0.03271210874454374,Model identified elevated combined risk,0
+TX-TEST-00308,0.80081173020559,Amount unusually high | New payee | Bank transfer,1
+TX-TEST-00309,0.016188767963882057,Bank transfer,0
+TX-TEST-00310,0.06757235445382438,Unknown device | Foreign transaction without travel notice,0
+TX-TEST-00311,0.05094628697164247,Model identified elevated combined risk,0
+TX-TEST-00312,0.0030601968715303937,Model identified elevated combined risk,0
+TX-TEST-00313,0.004594648120714034,Model identified elevated combined risk,0
+TX-TEST-00314,0.03889674864984626,Model identified elevated combined risk,0
+TX-TEST-00315,0.15612759326832737,Model identified elevated combined risk,0
+TX-TEST-00316,0.023870747272933784,Bank transfer,0
+TX-TEST-00317,0.007077060481626237,Model identified elevated combined risk,0
+TX-TEST-00318,0.22969462908313876,Model identified elevated combined risk,0
+TX-TEST-00319,0.006917505825446071,Overnight transaction,0
+TX-TEST-00320,0.0055728666993925926,Overnight transaction,0
+TX-TEST-00321,0.3871220916641739,Overnight transaction,0
+TX-TEST-00322,0.9921700504631512,Amount unusually high | New payee | Bank transfer | Overnight transaction,1
+TX-TEST-00323,0.004832315522547061,Foreign transaction without travel notice,0
+TX-TEST-00324,0.003922408214123018,Model identified elevated combined risk,0
+TX-TEST-00325,0.08000977119309594,Bank transfer,0
+TX-TEST-00326,0.004181424180902942,Model identified elevated combined risk,0
+TX-TEST-00327,0.020758707654718888,Bank transfer,0
+TX-TEST-00328,0.006956831720769295,Multiple failed logins,0
+TX-TEST-00329,0.004647583339522447,Unknown device | Foreign transaction without travel notice,0
+TX-TEST-00330,0.025119865890852727,Multiple failed logins,0
+TX-TEST-00331,0.0042476286322749544,Model identified elevated combined risk,0
+TX-TEST-00332,0.07999531199044206,Model identified elevated combined risk,0
+TX-TEST-00333,0.006484711488055738,Model identified elevated combined risk,0
+TX-TEST-00334,0.7076581604945678,Foreign transaction without travel notice,1
+TX-TEST-00335,0.004079607078564347,Model identified elevated combined risk,0
+TX-TEST-00336,0.050460681448309924,Bank transfer,0
+TX-TEST-00337,0.14931118069484198,Model identified elevated combined risk,0
+TX-TEST-00338,0.09001144887116787,Model identified elevated combined risk,0
+TX-TEST-00339,0.0077217634115058515,Model identified elevated combined risk,0
+TX-TEST-00340,0.00603536581316328,Model identified elevated combined risk,0
+TX-TEST-00341,0.03726805483630821,Model identified elevated combined risk,0
+TX-TEST-00342,0.00603536581316328,Model identified elevated combined risk,0
+TX-TEST-00343,0.10417764018150671,Model identified elevated combined risk,0
+TX-TEST-00344,0.0056749758188480185,Model identified elevated combined risk,0
+TX-TEST-00345,0.004545110414970827,Model identified elevated combined risk,0
+TX-TEST-00346,0.004597528327065555,Model identified elevated combined risk,0
+TX-TEST-00347,0.0020673182988100603,Unknown device,0
+TX-TEST-00348,0.06690763093225949,Model identified elevated combined risk,0
+TX-TEST-00349,0.005245892128952753,Model identified elevated combined risk,0
+TX-TEST-00350,0.0208922384695624,Bank transfer,0
+TX-TEST-00351,0.016659253041312615,Multiple failed logins | Bank transfer,0
+TX-TEST-00352,0.0047672339686218364,Model identified elevated combined risk,0
+TX-TEST-00353,0.0031998015789493485,Multiple failed logins,0
+TX-TEST-00354,0.0180390996641967,Unknown device | Bank transfer,0
+TX-TEST-00355,0.00603536581316328,Model identified elevated combined risk,0
+TX-TEST-00356,0.018365741314821778,Bank transfer,0
+TX-TEST-00357,0.004545110414970827,Model identified elevated combined risk,0
+TX-TEST-00358,0.2389175780577419,New payee | Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00359,0.9794575749075551,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-00360,0.1522850620427614,Model identified elevated combined risk,0
+TX-TEST-00361,0.009721247615233722,Model identified elevated combined risk,0
+TX-TEST-00362,0.9722375807390308,Amount unusually high | New payee | Bank transfer,1
+TX-TEST-00363,0.004360122922714245,Model identified elevated combined risk,0
+TX-TEST-00364,0.017104600002439366,Bank transfer,0
+TX-TEST-00365,0.07376741863651357,Bank transfer,0
+TX-TEST-00366,0.0033259084507320665,Model identified elevated combined risk,0
+TX-TEST-00367,0.004360122922714245,Model identified elevated combined risk,0
+TX-TEST-00368,0.00516574943783705,Model identified elevated combined risk,0
+TX-TEST-00369,0.08017823015025825,Bank transfer,0
+TX-TEST-00370,0.9929180516127774,New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-00371,0.0865686720160249,Model identified elevated combined risk,0
+TX-TEST-00372,0.03351492640321948,Model identified elevated combined risk,0
+TX-TEST-00373,0.007623184920563979,Model identified elevated combined risk,0
+TX-TEST-00374,0.15397258520454887,New payee | Bank transfer,0
+TX-TEST-00375,0.03351492640321948,Model identified elevated combined risk,0
+TX-TEST-00376,0.007960567331332104,Model identified elevated combined risk,0
+TX-TEST-00377,0.039326342111689984,Model identified elevated combined risk,0
+TX-TEST-00378,0.007623184920563979,Model identified elevated combined risk,0
+TX-TEST-00379,0.040538926814926324,Overnight transaction,0
+TX-TEST-00380,0.003986616593771412,Overnight transaction,0
+TX-TEST-00381,0.9862100193302232,Multiple failed logins | Unknown device,1
+TX-TEST-00382,0.004209416830540611,Model identified elevated combined risk,0
+TX-TEST-00383,0.0803106070254281,Bank transfer,0
+TX-TEST-00384,0.009689997628205396,Model identified elevated combined risk,0
+TX-TEST-00385,0.011421401112138522,Unknown device,0
+TX-TEST-00386,0.045938148845933724,Unknown device,0
+TX-TEST-00387,0.003575851265481227,Model identified elevated combined risk,0
+TX-TEST-00388,0.11914528078833998,Model identified elevated combined risk,0
+TX-TEST-00389,0.003284390722819696,Model identified elevated combined risk,0
+TX-TEST-00390,0.007145756355305246,Multiple failed logins,0
+TX-TEST-00391,0.006798962074966601,Multiple failed logins,0
+TX-TEST-00392,0.05155824751631288,Model identified elevated combined risk,0
+TX-TEST-00393,0.04556309102521103,Model identified elevated combined risk,0
+TX-TEST-00394,0.055263742577663526,Model identified elevated combined risk,0
+TX-TEST-00395,0.053702449081072995,Model identified elevated combined risk,0
+TX-TEST-00396,0.1431023223886518,Model identified elevated combined risk,0
+TX-TEST-00397,0.03080619772992068,Bank transfer,0
+TX-TEST-00398,0.13927285401318765,Model identified elevated combined risk,0
+TX-TEST-00399,0.05784399717839348,Model identified elevated combined risk,0
+TX-TEST-00400,0.004622442036914476,Foreign transaction without travel notice,0
+TX-TEST-00401,0.007867725270210625,Model identified elevated combined risk,0
+TX-TEST-00402,0.005519770157779105,Model identified elevated combined risk,0
+TX-TEST-00403,0.028877547239016463,Bank transfer,0
+TX-TEST-00404,0.0651249412280239,Multiple failed logins,0
+TX-TEST-00405,0.10496781450594408,Model identified elevated combined risk,0
+TX-TEST-00406,0.12500154442603995,Model identified elevated combined risk,0
+TX-TEST-00407,0.028877547239016463,Bank transfer,0
+TX-TEST-00408,0.004855218007943034,Model identified elevated combined risk,0
+TX-TEST-00409,0.006030897003505415,Model identified elevated combined risk,0
+TX-TEST-00410,0.051778671929533955,Model identified elevated combined risk,0
+TX-TEST-00411,0.004434600712957696,Model identified elevated combined risk,0
+TX-TEST-00412,0.004677390934147962,Foreign transaction without travel notice,0
+TX-TEST-00413,0.014656888262966733,Model identified elevated combined risk,0
+TX-TEST-00414,0.009308921573310662,Unknown device,0
+TX-TEST-00415,0.00796903469795439,Model identified elevated combined risk,0
+TX-TEST-00416,0.10867303775493646,Model identified elevated combined risk,0
+TX-TEST-00417,0.009515114419918506,Model identified elevated combined risk,0
+TX-TEST-00418,0.051541175941983625,Model identified elevated combined risk,0
+TX-TEST-00419,0.1547676481399055,Multiple failed logins,0
+TX-TEST-00420,0.20133379863466092,Amount unusually high,0
+TX-TEST-00421,0.007631368567103612,Model identified elevated combined risk,0
+TX-TEST-00422,0.05278657365478612,Model identified elevated combined risk,0
+TX-TEST-00423,0.004774562554681573,Model identified elevated combined risk,0
+TX-TEST-00424,0.004827573399654762,Model identified elevated combined risk,0
+TX-TEST-00425,0.0435832979587403,Unknown device,0
+TX-TEST-00426,0.09631657477112228,Bank transfer,0
+TX-TEST-00427,0.06220816295410919,Foreign transaction without travel notice,0
+TX-TEST-00428,0.025405889665548968,Bank transfer,0
+TX-TEST-00429,0.0039670345929511165,Amount unusually high,0
+TX-TEST-00430,0.051821312008021196,Model identified elevated combined risk,0
+TX-TEST-00431,0.05916818224135266,Model identified elevated combined risk,0
+TX-TEST-00432,0.08994244957929344,Model identified elevated combined risk,0
+TX-TEST-00433,0.062269073136955046,Model identified elevated combined risk,0
+TX-TEST-00434,0.05320183974651606,Bank transfer,0
+TX-TEST-00435,0.050093856822754426,Unknown device,0
+TX-TEST-00436,0.027239131343021517,Amount unusually high,0
+TX-TEST-00437,0.011802679198934869,Model identified elevated combined risk,0
+TX-TEST-00438,0.9898167267195179,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00439,0.9963943821352604,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-00440,0.9963779752270309,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-00441,0.9880189658421332,New payee | Multiple failed logins | Bank transfer | Overnight transaction,1
+TX-TEST-00442,0.13170972096806408,Unknown device | Overnight transaction,0
+TX-TEST-00443,0.004233909763917541,Overnight transaction,0
+TX-TEST-00444,0.997210192858323,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00445,0.2801162320821844,Bank transfer | Overnight transaction,0
+TX-TEST-00446,0.006161175633745212,Foreign transaction without travel notice,0
+TX-TEST-00447,0.15154062595865947,Model identified elevated combined risk,0
+TX-TEST-00448,0.9881100173213184,Multiple failed logins | Unknown device,1
+TX-TEST-00449,0.050134944874701014,Model identified elevated combined risk,0
+TX-TEST-00450,0.9863207512837814,Multiple failed logins | Unknown device,1
+TX-TEST-00451,0.10807028749414545,Bank transfer,0
+TX-TEST-00452,0.052089131803149655,Model identified elevated combined risk,0
+TX-TEST-00453,0.052057670717242016,Model identified elevated combined risk,0
+TX-TEST-00454,0.11868038674641115,Model identified elevated combined risk,0
+TX-TEST-00455,0.05768105307683451,Foreign transaction without travel notice,0
+TX-TEST-00456,0.4636003173844483,New payee | Bank transfer,0
+TX-TEST-00457,0.00454846925280824,Model identified elevated combined risk,0
+TX-TEST-00458,0.009840998989051818,Model identified elevated combined risk,0
+TX-TEST-00459,0.19799642285269833,Model identified elevated combined risk,0
+TX-TEST-00460,0.005921460027407352,Model identified elevated combined risk,0
+TX-TEST-00461,0.18544309526555128,Model identified elevated combined risk,0
+TX-TEST-00462,0.061212394944532414,Model identified elevated combined risk,0
+TX-TEST-00463,0.005019503274278879,Model identified elevated combined risk,0
+TX-TEST-00464,0.0033041899371930397,Model identified elevated combined risk,0
+TX-TEST-00465,0.1474767611832173,Model identified elevated combined risk,0
+TX-TEST-00466,0.009840998989051818,Model identified elevated combined risk,0
+TX-TEST-00467,0.17805925499231376,Model identified elevated combined risk,0
+TX-TEST-00468,0.1357702064193495,Model identified elevated combined risk,0
+TX-TEST-00469,0.0715849646590891,Bank transfer,0
+TX-TEST-00470,0.05330607461253217,Model identified elevated combined risk,0
+TX-TEST-00471,0.12861845114451967,Model identified elevated combined risk,0
+TX-TEST-00472,0.08399697816213592,Bank transfer,0
+TX-TEST-00473,0.010479321311027814,Model identified elevated combined risk,0
+TX-TEST-00474,0.010712421880866945,Unknown device,0
+TX-TEST-00475,0.01507435141872405,Model identified elevated combined risk,0
+TX-TEST-00476,0.06160661285618831,Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00477,0.0079606909429918,Model identified elevated combined risk,0
+TX-TEST-00478,0.010391649018024288,Model identified elevated combined risk,0
+TX-TEST-00479,0.02931449644225812,Bank transfer,0
+TX-TEST-00480,0.8805441928369294,Amount unusually high | New payee | Unknown device | Bank transfer,1
+TX-TEST-00481,0.1403633769242139,Model identified elevated combined risk,0
+TX-TEST-00482,0.016253647219119993,Model identified elevated combined risk,0
+TX-TEST-00483,0.032474429407264215,Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00484,0.13631115858591233,Model identified elevated combined risk,0
+TX-TEST-00485,0.009779775280838461,Model identified elevated combined risk,0
+TX-TEST-00486,0.10072895021262045,Unknown device,0
+TX-TEST-00487,0.006333605832366493,Foreign transaction without travel notice,0
+TX-TEST-00488,0.16733253828444974,Model identified elevated combined risk,0
+TX-TEST-00489,0.17730258790186415,Model identified elevated combined risk,0
+TX-TEST-00490,0.005403973237019223,Model identified elevated combined risk,0
+TX-TEST-00491,0.11718071326461087,Model identified elevated combined risk,0
+TX-TEST-00492,0.005585464632226979,Model identified elevated combined risk,0
+TX-TEST-00493,0.027741042124535046,Unknown device | Bank transfer,0
+TX-TEST-00494,0.012203946909718131,Model identified elevated combined risk,0
+TX-TEST-00495,0.0079606909429918,Model identified elevated combined risk,0
+TX-TEST-00496,0.9832539462798263,Multiple failed logins | Unknown device,1
+TX-TEST-00497,0.004062408242109592,Model identified elevated combined risk,0
+TX-TEST-00498,0.2662128130451332,Unknown device | Bank transfer,0
+TX-TEST-00499,0.0037977072962926827,Model identified elevated combined risk,0
+TX-TEST-00500,0.0048637614200506656,Model identified elevated combined risk,0
+TX-TEST-00501,0.0076189608623999806,Model identified elevated combined risk,0
+TX-TEST-00502,0.16319606630242645,Foreign transaction without travel notice,0
+TX-TEST-00503,0.06984533839026084,Bank transfer,0
+TX-TEST-00504,0.009956504366203354,Model identified elevated combined risk,0
+TX-TEST-00505,0.09426401801177446,Model identified elevated combined risk,0
+TX-TEST-00506,0.0040008667279099915,Model identified elevated combined risk,0
+TX-TEST-00507,0.17558323999455694,Model identified elevated combined risk,0
+TX-TEST-00508,0.0035743830384017882,Multiple failed logins,0
+TX-TEST-00509,0.12398592741233215,Model identified elevated combined risk,0
+TX-TEST-00510,0.11158424472134217,Unknown device | Overnight transaction,0
+TX-TEST-00511,0.04048160112840449,Model identified elevated combined risk,0
+TX-TEST-00512,0.00922006797795056,Model identified elevated combined risk,0
+TX-TEST-00513,0.12197396868559109,Model identified elevated combined risk,0
+TX-TEST-00514,0.30337631009880756,Foreign transaction without travel notice,0
+TX-TEST-00515,0.04775693210508558,Model identified elevated combined risk,0
+TX-TEST-00516,0.00526782047678346,Model identified elevated combined risk,0
+TX-TEST-00517,0.0548374559779646,Model identified elevated combined risk,0
+TX-TEST-00518,0.004429935568304336,Model identified elevated combined risk,0
+TX-TEST-00519,0.127726807499348,Model identified elevated combined risk,0
+TX-TEST-00520,0.0035492317135671957,Model identified elevated combined risk,0
+TX-TEST-00521,0.05241097105326181,Model identified elevated combined risk,0
+TX-TEST-00522,0.12504257660301527,Model identified elevated combined risk,0
+TX-TEST-00523,0.16112191750245117,Model identified elevated combined risk,0
+TX-TEST-00524,0.07105356399364836,Bank transfer,0
+TX-TEST-00525,0.005313338442446194,Model identified elevated combined risk,0
+TX-TEST-00526,0.00611700599948342,Model identified elevated combined risk,0
+TX-TEST-00527,0.13403176421079183,Model identified elevated combined risk,0
+TX-TEST-00528,0.0168478619674874,Unknown device,0
+TX-TEST-00529,0.05654074574539047,Model identified elevated combined risk,0
+TX-TEST-00530,0.010365525891194811,Model identified elevated combined risk,0
+TX-TEST-00531,0.037855249086223015,Unknown device | Bank transfer,0
+TX-TEST-00532,0.006084903015416207,Model identified elevated combined risk,0
+TX-TEST-00533,0.0033530935780324905,Model identified elevated combined risk,0
+TX-TEST-00534,0.005525348845576307,Model identified elevated combined risk,0
+TX-TEST-00535,0.007741208177803803,Unknown device,0
+TX-TEST-00536,0.03315677276927787,Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00537,0.13294521416167687,Model identified elevated combined risk,0
+TX-TEST-00538,0.005585464632226979,Model identified elevated combined risk,0
+TX-TEST-00539,0.050455808127080316,Model identified elevated combined risk,0
+TX-TEST-00540,0.007859691968642835,Model identified elevated combined risk,0
+TX-TEST-00541,0.007859691968642835,Model identified elevated combined risk,0
+TX-TEST-00542,0.054119612124062175,Model identified elevated combined risk,0
+TX-TEST-00543,0.004985671636987358,Model identified elevated combined risk,0
+TX-TEST-00544,0.004843860756239283,Model identified elevated combined risk,0
+TX-TEST-00545,0.4151514573028492,New payee | Unknown device | Bank transfer,0
+TX-TEST-00546,0.04228558823299239,Unknown device,0
+TX-TEST-00547,0.11772973370081045,Model identified elevated combined risk,0
+TX-TEST-00548,0.08261639135915695,Model identified elevated combined risk,0
+TX-TEST-00549,0.12488441106013354,Model identified elevated combined risk,0
+TX-TEST-00550,0.010206356743899083,Model identified elevated combined risk,0
+TX-TEST-00551,0.006718435443072483,Model identified elevated combined risk,0
+TX-TEST-00552,0.014387795964209688,Model identified elevated combined risk,0
+TX-TEST-00553,0.11579438360291962,Model identified elevated combined risk,0
+TX-TEST-00554,0.003338498235142057,Unknown device,0
+TX-TEST-00555,0.09439706232823869,Model identified elevated combined risk,0
+TX-TEST-00556,0.1471217253841945,Model identified elevated combined risk,0
+TX-TEST-00557,0.13538412605849479,Model identified elevated combined risk,0
+TX-TEST-00558,0.00823231694895368,Model identified elevated combined risk,0
+TX-TEST-00559,0.006927788073339768,Model identified elevated combined risk,0
+TX-TEST-00560,0.004905018494200934,Model identified elevated combined risk,0
+TX-TEST-00561,0.014314227318551719,Model identified elevated combined risk,0
+TX-TEST-00562,0.18902768867206227,Model identified elevated combined risk,0
+TX-TEST-00563,0.010029383705934205,Model identified elevated combined risk,0
+TX-TEST-00564,0.11777697061852367,Model identified elevated combined risk,0
+TX-TEST-00565,0.14137211306779693,Model identified elevated combined risk,0
+TX-TEST-00566,0.1744214794691876,Foreign transaction without travel notice,0
+TX-TEST-00567,0.05141513645898407,Model identified elevated combined risk,0
+TX-TEST-00568,0.11487958603395229,Model identified elevated combined risk,0
+TX-TEST-00569,0.02464891061597526,Unknown device,0
+TX-TEST-00570,0.004749060496629115,Model identified elevated combined risk,0
+TX-TEST-00571,0.0039475569256134865,Model identified elevated combined risk,0
+TX-TEST-00572,0.11825068207908143,Model identified elevated combined risk,0
+TX-TEST-00573,0.007306430905969,Model identified elevated combined risk,0
+TX-TEST-00574,0.02856469466516486,Bank transfer,0
+TX-TEST-00575,0.003496638648176994,Foreign transaction without travel notice,0
+TX-TEST-00576,0.15031910204988,Model identified elevated combined risk,0
+TX-TEST-00577,0.997307968206752,Amount unusually high | Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00578,0.9934487792942592,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00579,0.07041045453373933,Overnight transaction,0
+TX-TEST-00580,0.11960564789889686,Overnight transaction,0
+TX-TEST-00581,0.5479071707680367,Overnight transaction,0
+TX-TEST-00582,0.05026159335614265,Model identified elevated combined risk,0
+TX-TEST-00583,0.04375252410871302,Model identified elevated combined risk,0
+TX-TEST-00584,0.03779623814635994,Model identified elevated combined risk,0
+TX-TEST-00585,0.008002738813377512,Model identified elevated combined risk,0
+TX-TEST-00586,0.004244334508262215,Model identified elevated combined risk,0
+TX-TEST-00587,0.041332207177910966,Model identified elevated combined risk,0
+TX-TEST-00588,0.10679674525004902,New payee | Bank transfer,0
+TX-TEST-00589,0.009029149404470329,Model identified elevated combined risk,0
+TX-TEST-00590,0.15522145275301608,Model identified elevated combined risk,0
+TX-TEST-00591,0.0043330023013344625,Model identified elevated combined risk,0
+TX-TEST-00592,0.00814223274213254,Model identified elevated combined risk,0
+TX-TEST-00593,0.031140851644048128,Bank transfer,0
+TX-TEST-00594,0.15897658714221766,Model identified elevated combined risk,0
+TX-TEST-00595,0.04934816915779989,Bank transfer,0
+TX-TEST-00596,0.006059631059472044,Foreign transaction without travel notice,0
+TX-TEST-00597,0.00584777694912145,Model identified elevated combined risk,0
+TX-TEST-00598,0.0038513755290496706,Foreign transaction without travel notice,0
+TX-TEST-00599,0.008160278270225797,Model identified elevated combined risk,0
+TX-TEST-00600,0.005297349130718863,Model identified elevated combined risk,0
+TX-TEST-00601,0.00822343119965693,Model identified elevated combined risk,0
+TX-TEST-00602,0.00581776895629446,Model identified elevated combined risk,0
+TX-TEST-00603,0.04557039931533121,Model identified elevated combined risk,0
+TX-TEST-00604,0.11863634859011865,Model identified elevated combined risk,0
+TX-TEST-00605,0.004742095781155322,Model identified elevated combined risk,0
+TX-TEST-00606,0.06577446890950998,Bank transfer,0
+TX-TEST-00607,0.010533026739152,Model identified elevated combined risk,0
+TX-TEST-00608,0.00969699996068971,Model identified elevated combined risk,0
+TX-TEST-00609,0.1148452242550791,New payee | Bank transfer,0
+TX-TEST-00610,0.16752238555132257,Model identified elevated combined risk,0
+TX-TEST-00611,0.02939420623553359,Bank transfer,0
+TX-TEST-00612,0.058805089795709364,Model identified elevated combined risk,0
+TX-TEST-00613,0.09145873986408891,Bank transfer,0
+TX-TEST-00614,0.04773659091571136,Model identified elevated combined risk,0
+TX-TEST-00615,0.06178852844713875,Bank transfer,0
+TX-TEST-00616,0.04387533540209066,Model identified elevated combined risk,0
+TX-TEST-00617,0.004662970185229366,Model identified elevated combined risk,0
+TX-TEST-00618,0.007279478346484756,Unknown device,0
+TX-TEST-00619,0.04393342254659784,Model identified elevated combined risk,0
+TX-TEST-00620,0.0439320400719341,Model identified elevated combined risk,0
+TX-TEST-00621,0.004244525514849901,Model identified elevated combined risk,0
+TX-TEST-00622,0.007680732204393441,Model identified elevated combined risk,0
+TX-TEST-00623,0.005305240682434552,Model identified elevated combined risk,0
+TX-TEST-00624,0.08922374953746898,Model identified elevated combined risk,0
+TX-TEST-00625,0.13625268044403563,Model identified elevated combined risk,0
+TX-TEST-00626,0.02726598286316237,Unknown device | Bank transfer,0
+TX-TEST-00627,0.07656360725853152,Unknown device | Foreign transaction without travel notice,0
+TX-TEST-00628,0.012976260095580425,Model identified elevated combined risk,0
+TX-TEST-00629,0.004659070709414022,Model identified elevated combined risk,0
+TX-TEST-00630,0.05552244152854061,Multiple failed logins,0
+TX-TEST-00631,0.19507404605861617,Amount unusually high | Bank transfer,0
+TX-TEST-00632,0.010175244198827166,Model identified elevated combined risk,0
+TX-TEST-00633,0.9535761653232258,Amount unusually high | New payee | Multiple failed logins | Bank transfer,1
+TX-TEST-00634,0.04515552898267929,Model identified elevated combined risk,0
+TX-TEST-00635,0.004656425751098875,Model identified elevated combined risk,0
+TX-TEST-00636,0.03591644350816341,Multiple failed logins,0
+TX-TEST-00637,0.005456222889962462,Model identified elevated combined risk,0
+TX-TEST-00638,0.0068306557780647564,Multiple failed logins,0
+TX-TEST-00639,0.04784532076836467,Model identified elevated combined risk,0
+TX-TEST-00640,0.0346651498466151,Model identified elevated combined risk,0
+TX-TEST-00641,0.004911879474222778,Multiple failed logins,0
+TX-TEST-00642,0.006427725533135482,Model identified elevated combined risk,0
+TX-TEST-00643,0.004457841909582154,Unknown device,0
+TX-TEST-00644,0.09683527994458402,Foreign transaction without travel notice,0
+TX-TEST-00645,0.6109937606756183,Overnight transaction,0
+TX-TEST-00646,0.9939180355812316,Amount unusually high | New payee | Bank transfer | Overnight transaction,1
+TX-TEST-00647,0.10455522566720864,Overnight transaction,0
+TX-TEST-00648,0.1355852432478176,Overnight transaction,0
+TX-TEST-00649,0.9938732731289206,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-00650,0.994856726405831,Amount unusually high | Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-00651,0.995355019810437,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00652,0.008125811991720579,Overnight transaction,0
+TX-TEST-00653,0.4523424566384513,Overnight transaction,0
+TX-TEST-00654,0.9970919103804046,Amount unusually high | Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00655,0.04353147759120788,Unknown device | Foreign transaction without travel notice,0
+TX-TEST-00656,0.10920265110518065,Model identified elevated combined risk,0
+TX-TEST-00657,0.004919600467849173,Model identified elevated combined risk,0
+TX-TEST-00658,0.026530909195943257,Bank transfer,0
+TX-TEST-00659,0.8501850960404596,Foreign transaction without travel notice,1
+TX-TEST-00660,0.006589856469250124,Foreign transaction without travel notice,0
+TX-TEST-00661,0.06427019904639124,Model identified elevated combined risk,0
+TX-TEST-00662,0.08394366141397534,Model identified elevated combined risk,0
+TX-TEST-00663,0.8504475215073627,Foreign transaction without travel notice,1
+TX-TEST-00664,0.03166715748618096,Bank transfer,0
+TX-TEST-00665,0.5288644233508493,New payee | Bank transfer,0
+TX-TEST-00666,0.004058773559743084,Model identified elevated combined risk,0
+TX-TEST-00667,0.011735004959789129,Model identified elevated combined risk,0
+TX-TEST-00668,0.004112108531773564,Model identified elevated combined risk,0
+TX-TEST-00669,0.11687955677718635,Model identified elevated combined risk,0
+TX-TEST-00670,0.029417957013914826,Multiple failed logins,0
+TX-TEST-00671,0.0051669755631363135,Model identified elevated combined risk,0
+TX-TEST-00672,0.053338347628237,Foreign transaction without travel notice,0
+TX-TEST-00673,0.0054387921870585635,Model identified elevated combined risk,0
+TX-TEST-00674,0.043308903249685816,Model identified elevated combined risk,0
+TX-TEST-00675,0.004601150021479429,Foreign transaction without travel notice,0
+TX-TEST-00676,0.008675101351972636,Model identified elevated combined risk,0
+TX-TEST-00677,0.0051669755631363135,Model identified elevated combined risk,0
+TX-TEST-00678,0.05650049988948591,Bank transfer,0
+TX-TEST-00679,0.01270181495638517,Model identified elevated combined risk,0
+TX-TEST-00680,0.0862650489066257,Model identified elevated combined risk,0
+TX-TEST-00681,0.08366052746876396,Bank transfer,0
+TX-TEST-00682,0.004842244321331761,Model identified elevated combined risk,0
+TX-TEST-00683,0.9892139470250465,Amount unusually high | New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-00684,0.08247879165771638,Unknown device | Bank transfer,0
+TX-TEST-00685,0.004438007769451682,Model identified elevated combined risk,0
+TX-TEST-00686,0.009617869415046644,Model identified elevated combined risk,0
+TX-TEST-00687,0.10215702055484151,Model identified elevated combined risk,0
+TX-TEST-00688,0.04346082080184072,Model identified elevated combined risk,0
+TX-TEST-00689,0.03294054523819481,Bank transfer,0
+TX-TEST-00690,0.005464047218205156,Model identified elevated combined risk,0
+TX-TEST-00691,0.013024456981555008,Amount unusually high,0
+TX-TEST-00692,0.007111408972270939,Multiple failed logins | Unknown device,0
+TX-TEST-00693,0.09158513669598947,Model identified elevated combined risk,0
+TX-TEST-00694,0.029139110421564224,Bank transfer,0
+TX-TEST-00695,0.013366930111187038,Model identified elevated combined risk,0
+TX-TEST-00696,0.042305747435827774,Model identified elevated combined risk,0
+TX-TEST-00697,0.9925236707003837,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00698,0.9962725079816741,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-00699,0.9978635951865822,Amount unusually high | New payee | Multiple failed logins | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-00700,0.9943018809771274,Amount unusually high | New payee | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-00701,0.9933025045977473,Amount unusually high | New payee | Bank transfer | Overnight transaction,1
+TX-TEST-00702,0.9896448210230744,New payee | Multiple failed logins | Bank transfer | Overnight transaction,1
+TX-TEST-00703,0.02437222895824675,Overnight transaction,0
+TX-TEST-00704,0.9940829915286811,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-00705,0.9854299414419749,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-00706,0.02539591091849544,Model identified elevated combined risk,0
+TX-TEST-00707,0.004867999036503704,Model identified elevated combined risk,0
+TX-TEST-00708,0.062170533396615255,Model identified elevated combined risk,0
+TX-TEST-00709,0.9944148456509387,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-00710,0.05644116584911067,Model identified elevated combined risk,0
+TX-TEST-00711,0.00413754412355561,Model identified elevated combined risk,0
+TX-TEST-00712,0.004974666305717621,Model identified elevated combined risk,0
+TX-TEST-00713,0.02567882621368133,Multiple failed logins,0
+TX-TEST-00714,0.003921951586060534,Model identified elevated combined risk,0
+TX-TEST-00715,0.00689037582979351,Unknown device,0
+TX-TEST-00716,0.15354048356169073,Unknown device,0
+TX-TEST-00717,0.06337016373030929,Unknown device,0
+TX-TEST-00718,0.009313755880638125,Model identified elevated combined risk,0
+TX-TEST-00719,0.005039073788683533,Model identified elevated combined risk,0
+TX-TEST-00720,0.00856646274664848,Model identified elevated combined risk,0
+TX-TEST-00721,0.005770417683217109,Model identified elevated combined risk,0
+TX-TEST-00722,0.02724211817106016,Bank transfer,0
+TX-TEST-00723,0.029487795030722904,Unknown device,0
+TX-TEST-00724,0.03294951512645082,Model identified elevated combined risk,0
+TX-TEST-00725,0.0033266290668242664,Model identified elevated combined risk,0
+TX-TEST-00726,0.020277401464423597,Bank transfer,0
+TX-TEST-00727,0.0030626048737633217,Model identified elevated combined risk,0
+TX-TEST-00728,0.004193131409274549,Model identified elevated combined risk,0
+TX-TEST-00729,0.004667196111894325,Model identified elevated combined risk,0
+TX-TEST-00730,0.004188714470831866,Model identified elevated combined risk,0
+TX-TEST-00731,0.08680316666939505,Model identified elevated combined risk,0
+TX-TEST-00732,0.004188714470831866,Model identified elevated combined risk,0
+TX-TEST-00733,0.003169379865764633,Model identified elevated combined risk,0
+TX-TEST-00734,0.03383974097453792,Model identified elevated combined risk,0
+TX-TEST-00735,0.027176605842878482,Model identified elevated combined risk,0
+TX-TEST-00736,0.0040799905124985335,Model identified elevated combined risk,0
+TX-TEST-00737,0.018833748021251474,Bank transfer,0
+TX-TEST-00738,0.021745751817225992,Bank transfer,0
+TX-TEST-00739,0.16803554247072794,Model identified elevated combined risk,0
+TX-TEST-00740,0.004545495953343128,Model identified elevated combined risk,0
+TX-TEST-00741,0.005241698988449275,Model identified elevated combined risk,0
+TX-TEST-00742,0.035356479549870166,Bank transfer,0
+TX-TEST-00743,0.003199242256134461,Multiple failed logins,0
+TX-TEST-00744,0.035356479549870166,Bank transfer,0
+TX-TEST-00745,0.15462455182741444,Foreign transaction without travel notice,0
+TX-TEST-00746,0.004654823063957838,Model identified elevated combined risk,0
+TX-TEST-00747,0.08630737270308132,Model identified elevated combined risk,0
+TX-TEST-00748,0.00975940097472162,Model identified elevated combined risk,0
+TX-TEST-00749,0.06606459509195733,Model identified elevated combined risk,0
+TX-TEST-00750,0.005126447734951108,Model identified elevated combined risk,0
+TX-TEST-00751,0.036034303128011494,Model identified elevated combined risk,0
+TX-TEST-00752,0.026925602184045442,Model identified elevated combined risk,0
+TX-TEST-00753,0.007609378371108837,Model identified elevated combined risk,0
+TX-TEST-00754,0.10216637925391236,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00755,0.07080065473599556,Model identified elevated combined risk,0
+TX-TEST-00756,0.004595235752006619,Foreign transaction without travel notice,0
+TX-TEST-00757,0.024642305696641983,Model identified elevated combined risk,0
+TX-TEST-00758,0.004567948680540465,Model identified elevated combined risk,0
+TX-TEST-00759,0.02698322503058116,Unknown device,0
+TX-TEST-00760,0.04128342505477893,Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00761,0.02860080649869567,Unknown device,0
+TX-TEST-00762,0.03454229636108331,Model identified elevated combined risk,0
+TX-TEST-00763,0.0675217811735018,Model identified elevated combined risk,0
+TX-TEST-00764,0.0370738215300194,Model identified elevated combined risk,0
+TX-TEST-00765,0.005457674317627428,Model identified elevated combined risk,0
+TX-TEST-00766,0.005452848821222884,Model identified elevated combined risk,0
+TX-TEST-00767,0.1897482783190026,Bank transfer,0
+TX-TEST-00768,0.07064558853235081,Model identified elevated combined risk,0
+TX-TEST-00769,0.0032349681042530293,Unknown device,0
+TX-TEST-00770,0.035040475196149216,Unknown device,0
+TX-TEST-00771,0.040567460196171676,Model identified elevated combined risk,0
+TX-TEST-00772,0.010035361435360863,Foreign transaction without travel notice,0
+TX-TEST-00773,0.008486556539934733,Model identified elevated combined risk,0
+TX-TEST-00774,0.004967364163905322,Model identified elevated combined risk,0
+TX-TEST-00775,0.6496104518508321,New payee | Bank transfer | Overnight transaction,1
+TX-TEST-00776,0.2316342292174411,Bank transfer | Overnight transaction,0
+TX-TEST-00777,0.10611235383043763,Overnight transaction,0
+TX-TEST-00778,0.03250618646271196,Model identified elevated combined risk,0
+TX-TEST-00779,0.08107835895775,Bank transfer,0
+TX-TEST-00780,0.06140919781463399,Foreign transaction without travel notice,0
+TX-TEST-00781,0.6136258227413386,New payee | Bank transfer,0
+TX-TEST-00782,0.6019684316036746,New payee | Bank transfer,0
+TX-TEST-00783,0.005735322932633117,Model identified elevated combined risk,0
+TX-TEST-00784,0.035679634354720074,Model identified elevated combined risk,0
+TX-TEST-00785,0.03384946227775556,Model identified elevated combined risk,0
+TX-TEST-00786,0.13282584237086856,Model identified elevated combined risk,0
+TX-TEST-00787,0.11288164009372982,Model identified elevated combined risk,0
+TX-TEST-00788,0.048827707792176656,Foreign transaction without travel notice,0
+TX-TEST-00789,0.0054019035908787405,Model identified elevated combined risk,0
+TX-TEST-00790,0.027129372470307275,Model identified elevated combined risk,0
+TX-TEST-00791,0.026304217575132228,Model identified elevated combined risk,0
+TX-TEST-00792,0.009544030072912645,Model identified elevated combined risk,0
+TX-TEST-00793,0.004186418782645472,Model identified elevated combined risk,0
+TX-TEST-00794,0.02948592734966769,Multiple failed logins | Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00795,0.06960048291074149,Model identified elevated combined risk,0
+TX-TEST-00796,0.006542498151610815,Model identified elevated combined risk,0
+TX-TEST-00797,0.00305587291795105,Model identified elevated combined risk,0
+TX-TEST-00798,0.02834510447991335,Multiple failed logins,0
+TX-TEST-00799,0.00904559846467722,Model identified elevated combined risk,0
+TX-TEST-00800,0.00647283352023594,Model identified elevated combined risk,0
+TX-TEST-00801,0.003851669141740177,Foreign transaction without travel notice,0
+TX-TEST-00802,0.005480106741390465,Model identified elevated combined risk,0
+TX-TEST-00803,0.02323728215374748,Multiple failed logins,0
+TX-TEST-00804,0.003951981392147761,Model identified elevated combined risk,0
+TX-TEST-00805,0.06809414545605363,Model identified elevated combined risk,0
+TX-TEST-00806,0.08838463044634683,Model identified elevated combined risk,0
+TX-TEST-00807,0.03381623914019324,Model identified elevated combined risk,0
+TX-TEST-00808,0.007924400498213817,Model identified elevated combined risk,0
+TX-TEST-00809,0.011946541538085746,Amount unusually high,0
+TX-TEST-00810,0.03730760538678407,Model identified elevated combined risk,0
+TX-TEST-00811,0.12724201812816882,Model identified elevated combined risk,0
+TX-TEST-00812,0.007179014496496835,Model identified elevated combined risk,0
+TX-TEST-00813,0.13799811611032056,Model identified elevated combined risk,0
+TX-TEST-00814,0.13110695947185835,Unknown device | Foreign transaction without travel notice,0
+TX-TEST-00815,0.009807977739974333,Model identified elevated combined risk,0
+TX-TEST-00816,0.00523441722421181,Model identified elevated combined risk,0
+TX-TEST-00817,0.0035505627803874137,Model identified elevated combined risk,0
+TX-TEST-00818,0.069269647034022,Model identified elevated combined risk,0
+TX-TEST-00819,0.0038103338073073906,Foreign transaction without travel notice,0
+TX-TEST-00820,0.0849050622194856,Model identified elevated combined risk,0
+TX-TEST-00821,0.009700290652766319,Model identified elevated combined risk,0
+TX-TEST-00822,0.005152577399929779,Model identified elevated combined risk,0
+TX-TEST-00823,0.02787515423078944,Model identified elevated combined risk,0
+TX-TEST-00824,0.03830352850860682,Model identified elevated combined risk,0
+TX-TEST-00825,0.027804785740754942,Unknown device,0
+TX-TEST-00826,0.007460839483471335,Unknown device,0
+TX-TEST-00827,0.031682104528740256,Unknown device,0
+TX-TEST-00828,0.07682159220814493,Bank transfer,0
+TX-TEST-00829,0.16603306911861077,Model identified elevated combined risk,0
+TX-TEST-00830,0.010468271820914303,Model identified elevated combined risk,0
+TX-TEST-00831,0.0045395866871234735,Model identified elevated combined risk,0
+TX-TEST-00832,0.03646021639293275,Model identified elevated combined risk,0
+TX-TEST-00833,0.11132102133621483,Amount unusually high,0
+TX-TEST-00834,0.0073727108265816,Foreign transaction without travel notice,0
+TX-TEST-00835,0.07930178017937514,Model identified elevated combined risk,0
+TX-TEST-00836,0.07603267608539278,Model identified elevated combined risk,0
+TX-TEST-00837,0.004560973180464732,Model identified elevated combined risk,0
+TX-TEST-00838,0.11429238777401408,Model identified elevated combined risk,0
+TX-TEST-00839,0.008983372299282371,Model identified elevated combined risk,0
+TX-TEST-00840,0.00823043170078028,Model identified elevated combined risk,0
+TX-TEST-00841,0.039721685191246414,Model identified elevated combined risk,0
+TX-TEST-00842,0.03459764327091048,Multiple failed logins | Overnight transaction,0
+TX-TEST-00843,0.992461049008869,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00844,0.9964586094097039,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-00845,0.0036112477028328494,Overnight transaction,0
+TX-TEST-00846,0.964719593501784,Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00847,0.07137958378843035,Amount unusually high | Overnight transaction,0
+TX-TEST-00848,0.009806367479767758,Model identified elevated combined risk,0
+TX-TEST-00849,0.05206628356981193,Model identified elevated combined risk,0
+TX-TEST-00850,0.05209703301252804,Model identified elevated combined risk,0
+TX-TEST-00851,0.05098207683598682,Bank transfer,0
+TX-TEST-00852,0.005307571923377813,Model identified elevated combined risk,0
+TX-TEST-00853,0.005054653327574793,Multiple failed logins,0
+TX-TEST-00854,0.014402178880934409,Model identified elevated combined risk,0
+TX-TEST-00855,0.004288308442416325,Model identified elevated combined risk,0
+TX-TEST-00856,0.9922668048866563,Amount unusually high | New payee | Multiple failed logins | Bank transfer,1
+TX-TEST-00857,0.08848222099643095,Model identified elevated combined risk,0
+TX-TEST-00858,0.01435020866569657,Model identified elevated combined risk,0
+TX-TEST-00859,0.12018956175082902,Amount unusually high,0
+TX-TEST-00860,0.0768492215435489,Multiple failed logins,0
+TX-TEST-00861,0.004237158261984022,Model identified elevated combined risk,0
+TX-TEST-00862,0.0031279744228144115,Foreign transaction without travel notice,0
+TX-TEST-00863,0.036830048998935536,Unknown device | Bank transfer,0
+TX-TEST-00864,0.014444305058884145,Model identified elevated combined risk,0
+TX-TEST-00865,0.06005894036629183,Model identified elevated combined risk,0
+TX-TEST-00866,0.060458237031961605,Bank transfer,0
+TX-TEST-00867,0.047472637437068935,Unknown device,0
+TX-TEST-00868,0.15688814640990834,Model identified elevated combined risk,0
+TX-TEST-00869,0.004788197955604786,Model identified elevated combined risk,0
+TX-TEST-00870,0.13580824597271973,Model identified elevated combined risk,0
+TX-TEST-00871,0.12349120627303686,Unknown device | Bank transfer,0
+TX-TEST-00872,0.04398441399051597,Model identified elevated combined risk,0
+TX-TEST-00873,0.013353402908088424,Model identified elevated combined risk,0
+TX-TEST-00874,0.04681383086376176,Unknown device,0
+TX-TEST-00875,0.004856252337710926,Model identified elevated combined risk,0
+TX-TEST-00876,0.01128251230398563,Model identified elevated combined risk,0
+TX-TEST-00877,0.004870618325422237,Model identified elevated combined risk,0
+TX-TEST-00878,0.010365723036849586,Model identified elevated combined risk,0
+TX-TEST-00879,0.055415933981382434,Model identified elevated combined risk,0
+TX-TEST-00880,0.006011206169399852,Multiple failed logins,0
+TX-TEST-00881,0.004903952800698196,Model identified elevated combined risk,0
+TX-TEST-00882,0.010242108486902182,Model identified elevated combined risk,0
+TX-TEST-00883,0.05279165524582938,Model identified elevated combined risk,0
+TX-TEST-00884,0.008779523276339721,Multiple failed logins,0
+TX-TEST-00885,0.05293124481363023,Model identified elevated combined risk,0
+TX-TEST-00886,0.014578648355375028,Model identified elevated combined risk,0
+TX-TEST-00887,0.028518985025113876,Unknown device,0
+TX-TEST-00888,0.010365723036849586,Model identified elevated combined risk,0
+TX-TEST-00889,0.03220823656623238,Bank transfer,0
+TX-TEST-00890,0.035290851198321975,Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00891,0.02968186458519162,Model identified elevated combined risk,0
+TX-TEST-00892,0.1302362321168101,Model identified elevated combined risk,0
+TX-TEST-00893,0.09159739026309491,Bank transfer,0
+TX-TEST-00894,0.1404927620921723,Model identified elevated combined risk,0
+TX-TEST-00895,0.1720969217869288,Model identified elevated combined risk,0
+TX-TEST-00896,0.13750570250700264,Model identified elevated combined risk,0
+TX-TEST-00897,0.013897846188638307,Model identified elevated combined risk,0
+TX-TEST-00898,0.004765313645195603,Model identified elevated combined risk,0
+TX-TEST-00899,0.013001768787832829,Model identified elevated combined risk,0
+TX-TEST-00900,0.010963299117857168,Model identified elevated combined risk,0
+TX-TEST-00901,0.08495986542957773,Foreign transaction without travel notice,0
+TX-TEST-00902,0.004812740184888348,Model identified elevated combined risk,0
+TX-TEST-00903,0.0048141121898945885,Model identified elevated combined risk,0
+TX-TEST-00904,0.0014877220675941505,Model identified elevated combined risk,0
+TX-TEST-00905,0.13147432404736467,Overnight transaction,0
+TX-TEST-00906,0.0047509721680840215,Overnight transaction,0
+TX-TEST-00907,0.02516276586631814,Overnight transaction,0
+TX-TEST-00908,0.07554435604356205,Bank transfer,0
+TX-TEST-00909,0.004081094727607336,Model identified elevated combined risk,0
+TX-TEST-00910,0.05088567231245646,Model identified elevated combined risk,0
+TX-TEST-00911,0.030072274024796085,Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00912,0.05084205968457909,Unknown device,0
+TX-TEST-00913,0.00772324171884297,Foreign transaction without travel notice,0
+TX-TEST-00914,0.004589995481030501,Model identified elevated combined risk,0
+TX-TEST-00915,0.005012857052250679,Model identified elevated combined risk,0
+TX-TEST-00916,0.01360777738426724,Model identified elevated combined risk,0
+TX-TEST-00917,0.01418640813225586,Model identified elevated combined risk,0
+TX-TEST-00918,0.12684109046615738,Model identified elevated combined risk,0
+TX-TEST-00919,0.9808065602069105,Multiple failed logins | Unknown device,1
+TX-TEST-00920,0.9965174393264367,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-00921,0.05730255561243846,Model identified elevated combined risk,0
+TX-TEST-00922,0.04572708524362933,Unknown device,0
+TX-TEST-00923,0.013014779879761493,Model identified elevated combined risk,0
+TX-TEST-00924,0.05288401285076631,Model identified elevated combined risk,0
+TX-TEST-00925,0.014513880335223666,Model identified elevated combined risk,0
+TX-TEST-00926,0.13446237029077487,Model identified elevated combined risk,0
+TX-TEST-00927,0.005590875751409271,Model identified elevated combined risk,0
+TX-TEST-00928,0.056547031714302524,Model identified elevated combined risk,0
+TX-TEST-00929,0.05432682419375803,Model identified elevated combined risk,0
+TX-TEST-00930,0.24291611547374192,Model identified elevated combined risk,0
+TX-TEST-00931,0.004467310119382149,Multiple failed logins,0
+TX-TEST-00932,0.004241573273432461,Unknown device,0
+TX-TEST-00933,0.05974874234560122,Model identified elevated combined risk,0
+TX-TEST-00934,0.17756016466901878,Model identified elevated combined risk,0
+TX-TEST-00935,0.22399844644079253,Model identified elevated combined risk,0
+TX-TEST-00936,0.19132944559534584,Model identified elevated combined risk,0
+TX-TEST-00937,0.22268896867150667,Multiple failed logins,0
+TX-TEST-00938,0.057871124566795606,Model identified elevated combined risk,0
+TX-TEST-00939,0.007259490899449749,Model identified elevated combined risk,0
+TX-TEST-00940,0.004374141848990157,Multiple failed logins,0
+TX-TEST-00941,0.00581013797380608,Model identified elevated combined risk,0
+TX-TEST-00942,0.005778526263614443,Model identified elevated combined risk,0
+TX-TEST-00943,0.00581013797380608,Model identified elevated combined risk,0
+TX-TEST-00944,0.03335148171715387,Model identified elevated combined risk,0
+TX-TEST-00945,0.005644067442749108,Model identified elevated combined risk,0
+TX-TEST-00946,0.17516125491383705,Model identified elevated combined risk,0
+TX-TEST-00947,0.19684982017581082,Model identified elevated combined risk,0
+TX-TEST-00948,0.01117846706605666,Model identified elevated combined risk,0
+TX-TEST-00949,0.005637515060671834,Model identified elevated combined risk,0
+TX-TEST-00950,0.006079630901480532,Unknown device,0
+TX-TEST-00951,0.09295076863107786,Bank transfer,0
+TX-TEST-00952,0.004080943334721005,Model identified elevated combined risk,0
+TX-TEST-00953,0.014780377524967548,Model identified elevated combined risk,0
+TX-TEST-00954,0.03418513379543764,Bank transfer,0
+TX-TEST-00955,0.05408695754892345,Model identified elevated combined risk,0
+TX-TEST-00956,0.1476442228039508,Model identified elevated combined risk,0
+TX-TEST-00957,0.06504280669774909,Model identified elevated combined risk,0
+TX-TEST-00958,0.20220171011944868,Model identified elevated combined risk,0
+TX-TEST-00959,0.008413100327049994,Model identified elevated combined risk,0
+TX-TEST-00960,0.1370613239881993,Model identified elevated combined risk,0
+TX-TEST-00961,0.005963139543944845,Model identified elevated combined risk,0
+TX-TEST-00962,0.014000861215459666,Model identified elevated combined risk,0
+TX-TEST-00963,0.1403798328000935,Unknown device,0
+TX-TEST-00964,0.057215999074868566,Model identified elevated combined risk,0
+TX-TEST-00965,0.154465472980528,Model identified elevated combined risk,0
+TX-TEST-00966,0.004172091149296169,Model identified elevated combined risk,0
+TX-TEST-00967,0.027294946286961122,Bank transfer,0
+TX-TEST-00968,0.006188208776719446,Model identified elevated combined risk,0
+TX-TEST-00969,0.20921113596206714,Multiple failed logins,0
+TX-TEST-00970,0.0031443377417062638,Model identified elevated combined risk,0
+TX-TEST-00971,0.1366765127980619,Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-00972,0.9937960234902052,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-00973,0.09297674971796764,Overnight transaction,0
+TX-TEST-00974,0.9923462309980635,Amount unusually high | New payee | Bank transfer | Overnight transaction,1
+TX-TEST-00975,0.024586410701328394,Overnight transaction,0
+TX-TEST-00976,0.746190143359556,Overnight transaction,1
+TX-TEST-00977,0.737514456281872,Overnight transaction,1
+TX-TEST-00978,0.9859794090969283,Amount unusually high | New payee | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-00979,0.10585716659573895,New payee | Bank transfer,0
+TX-TEST-00980,0.18449160888804,Model identified elevated combined risk,0
+TX-TEST-00981,0.05169707174971592,Model identified elevated combined risk,0
+TX-TEST-00982,0.009993420926011066,Model identified elevated combined risk,0
+TX-TEST-00983,0.14037454604871097,Model identified elevated combined risk,0
+TX-TEST-00984,0.05299918621337856,Model identified elevated combined risk,0
+TX-TEST-00985,0.1337114531551278,Model identified elevated combined risk,0
+TX-TEST-00986,0.029275250232905545,Bank transfer,0
+TX-TEST-00987,0.05015920045692001,Model identified elevated combined risk,0
+TX-TEST-00988,0.1297159899283875,Model identified elevated combined risk,0
+TX-TEST-00989,0.0594160433402082,Model identified elevated combined risk,0
+TX-TEST-00990,0.008184945120228281,Model identified elevated combined risk,0
+TX-TEST-00991,0.2620440349106866,Model identified elevated combined risk,0
+TX-TEST-00992,0.17828942932594594,Model identified elevated combined risk,0
+TX-TEST-00993,0.06133883817890465,Model identified elevated combined risk,0
+TX-TEST-00994,0.004109408509609234,Model identified elevated combined risk,0
+TX-TEST-00995,0.005208186088486943,Model identified elevated combined risk,0
+TX-TEST-00996,0.9885089012560389,Multiple failed logins | Unknown device,1
+TX-TEST-00997,0.3491195466908086,New payee | Bank transfer,0
+TX-TEST-00998,0.064743583530205,Bank transfer,0
+TX-TEST-00999,0.010959060038434755,Model identified elevated combined risk,0
+TX-TEST-01000,0.1746919683712075,Model identified elevated combined risk,0
+TX-TEST-01001,0.09839596145058165,New payee | Bank transfer,0
+TX-TEST-01002,0.007935865693883106,Model identified elevated combined risk,0
+TX-TEST-01003,0.006610843966759436,Model identified elevated combined risk,0
+TX-TEST-01004,0.006610843966759436,Model identified elevated combined risk,0
+TX-TEST-01005,0.0892256138689604,Model identified elevated combined risk,0
+TX-TEST-01006,0.06445211081941084,Model identified elevated combined risk,0
+TX-TEST-01007,0.14847026528522095,Model identified elevated combined risk,0
+TX-TEST-01008,0.17788044079616022,Model identified elevated combined risk,0
+TX-TEST-01009,0.21585278077884365,Model identified elevated combined risk,0
+TX-TEST-01010,0.04680389736682851,Unknown device | Bank transfer,0
+TX-TEST-01011,0.16519418435630875,Model identified elevated combined risk,0
+TX-TEST-01012,0.0333014325197985,Bank transfer,0
+TX-TEST-01013,0.004067789770731398,Model identified elevated combined risk,0
+TX-TEST-01014,0.003774776595946864,Unknown device,0
+TX-TEST-01015,0.20176241714601428,Bank transfer,0
+TX-TEST-01016,0.041774376835494266,Bank transfer,0
+TX-TEST-01017,0.05653672939331036,Model identified elevated combined risk,0
+TX-TEST-01018,0.0926064861241235,Foreign transaction without travel notice,0
+TX-TEST-01019,0.11676197819379826,New payee | Bank transfer,0
+TX-TEST-01020,0.04358331068857577,Multiple failed logins,0
+TX-TEST-01021,0.004093994886837526,Model identified elevated combined risk,0
+TX-TEST-01022,0.006608327218084665,Model identified elevated combined risk,0
+TX-TEST-01023,0.08775360530679262,Bank transfer,0
+TX-TEST-01024,0.12288208112168189,Amount unusually high,0
+TX-TEST-01025,0.03290639886564572,Bank transfer,0
+TX-TEST-01026,0.02718242764346685,Unknown device | Bank transfer,0
+TX-TEST-01027,0.054595337786503675,Model identified elevated combined risk,0
+TX-TEST-01028,0.030402031879364588,Bank transfer,0
+TX-TEST-01029,0.05343806616201786,Model identified elevated combined risk,0
+TX-TEST-01030,0.9912775585789471,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-01031,0.05668165639562244,Model identified elevated combined risk,0
+TX-TEST-01032,0.05468192681324519,Model identified elevated combined risk,0
+TX-TEST-01033,0.014043046063123739,Model identified elevated combined risk,0
+TX-TEST-01034,0.004351927717348289,Model identified elevated combined risk,0
+TX-TEST-01035,0.21669868024022404,Model identified elevated combined risk,0
+TX-TEST-01036,0.13370626492602578,Bank transfer,0
+TX-TEST-01037,0.0023466870546917803,Model identified elevated combined risk,0
+TX-TEST-01038,0.9859746779267178,Amount unusually high | New payee | Unknown device | Bank transfer,1
+TX-TEST-01039,0.031583831505753966,Overnight transaction,0
+TX-TEST-01040,0.005996160481739732,Overnight transaction,0
+TX-TEST-01041,0.8433429876755003,Overnight transaction,1
+TX-TEST-01042,0.9955369582835403,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-01043,0.12090388045814084,New payee | Bank transfer,0
+TX-TEST-01044,0.013602526421970547,Model identified elevated combined risk,0
+TX-TEST-01045,0.060706291810846504,Bank transfer,0
+TX-TEST-01046,0.00382437563782994,Foreign transaction without travel notice,0
+TX-TEST-01047,0.008634120879118617,Model identified elevated combined risk,0
+TX-TEST-01048,0.012536321463259755,Model identified elevated combined risk,0
+TX-TEST-01049,0.023805783287003505,Unknown device | Bank transfer,0
+TX-TEST-01050,0.005163655372618657,Model identified elevated combined risk,0
+TX-TEST-01051,0.0048124738678854044,Model identified elevated combined risk,0
+TX-TEST-01052,0.17052358149792834,Model identified elevated combined risk,0
+TX-TEST-01053,0.0443743566312701,Unknown device | Bank transfer,0
+TX-TEST-01054,0.19443469684735243,Model identified elevated combined risk,0
+TX-TEST-01055,0.1359635390666363,Model identified elevated combined risk,0
+TX-TEST-01056,0.007596833499729362,Model identified elevated combined risk,0
+TX-TEST-01057,0.012724256792678702,Unknown device | Bank transfer,0
+TX-TEST-01058,0.13849759108860388,Model identified elevated combined risk,0
+TX-TEST-01059,0.48140970152146334,New payee | Bank transfer,0
+TX-TEST-01060,0.045200981991657896,Model identified elevated combined risk,0
+TX-TEST-01061,0.14046436280174585,Model identified elevated combined risk,0
+TX-TEST-01062,0.051304765540665195,Bank transfer,0
+TX-TEST-01063,0.009812184710230824,Model identified elevated combined risk,0
+TX-TEST-01064,0.0029389610409402108,Multiple failed logins,0
+TX-TEST-01065,0.01210523591678603,Model identified elevated combined risk,0
+TX-TEST-01066,0.008463420973664456,Multiple failed logins,0
+TX-TEST-01067,0.00570445550571842,Model identified elevated combined risk,0
+TX-TEST-01068,0.011972731335955852,Model identified elevated combined risk,0
+TX-TEST-01069,0.0725494539871851,Bank transfer,0
+TX-TEST-01070,0.007492461598919364,Model identified elevated combined risk,0
+TX-TEST-01071,0.09528246973532513,New payee | Bank transfer,0
+TX-TEST-01072,0.005381009210003001,Model identified elevated combined risk,0
+TX-TEST-01073,0.04680445869992904,Model identified elevated combined risk,0
+TX-TEST-01074,0.009796826815193897,Model identified elevated combined risk,0
+TX-TEST-01075,0.005321149416897482,Amount unusually high,0
+TX-TEST-01076,0.013129597868415707,Amount unusually high,0
+TX-TEST-01077,0.008511175249609412,Model identified elevated combined risk,0
+TX-TEST-01078,0.004866566642826154,Multiple failed logins | Foreign transaction without travel notice,0
+TX-TEST-01079,0.005346618142692209,Model identified elevated combined risk,0
+TX-TEST-01080,0.14997917492405832,Model identified elevated combined risk,0
+TX-TEST-01081,0.04258065016017852,Multiple failed logins,0
+TX-TEST-01082,0.02622247295335575,Unknown device | Bank transfer,0
+TX-TEST-01083,0.9825531173916715,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-01084,0.1648588745947649,Model identified elevated combined risk,0
+TX-TEST-01085,0.010760506612428502,Unknown device,0
+TX-TEST-01086,0.007105259311752017,Unknown device,0
+TX-TEST-01087,0.33694154286457684,Overnight transaction,0
+TX-TEST-01088,0.007682832086074183,Unknown device | Overnight transaction,0
+TX-TEST-01089,0.007239405184065675,Unknown device | Overnight transaction,0
+TX-TEST-01090,0.004684631149906534,Overnight transaction,0
+TX-TEST-01091,0.13715483287859373,Overnight transaction,0
+TX-TEST-01092,0.03061332073668517,Bank transfer,0
+TX-TEST-01093,0.03578305111487715,Bank transfer,0
+TX-TEST-01094,0.09302695855366613,Model identified elevated combined risk,0
+TX-TEST-01095,0.05315191519348697,Foreign transaction without travel notice,0
+TX-TEST-01096,0.004543183618964812,Amount unusually high,0
+TX-TEST-01097,0.3057115495813745,New payee | Bank transfer,0
+TX-TEST-01098,0.030836158577785374,Multiple failed logins,0
+TX-TEST-01099,0.19188225526339672,Model identified elevated combined risk,0
+TX-TEST-01100,0.051054274753588064,Foreign transaction without travel notice,0
+TX-TEST-01101,0.004653005606122196,Model identified elevated combined risk,0
+TX-TEST-01102,0.0049875513766413975,Model identified elevated combined risk,0
+TX-TEST-01103,0.04232789977400549,Model identified elevated combined risk,0
+TX-TEST-01104,0.0302022769931817,Bank transfer,0
+TX-TEST-01105,0.1123552185002078,New payee | Bank transfer,0
+TX-TEST-01106,0.0046191235644244474,Model identified elevated combined risk,0
+TX-TEST-01107,0.007119461197337936,Model identified elevated combined risk,0
+TX-TEST-01108,0.09329141611403544,Model identified elevated combined risk,0
+TX-TEST-01109,0.12603238533669875,Model identified elevated combined risk,0
+TX-TEST-01110,0.005918063487405064,Model identified elevated combined risk,0
+TX-TEST-01111,0.14956021493232868,Model identified elevated combined risk,0
+TX-TEST-01112,0.0731345109099886,Model identified elevated combined risk,0
+TX-TEST-01113,0.04509707482737307,Model identified elevated combined risk,0
+TX-TEST-01114,0.007324526681714872,Unknown device,0
+TX-TEST-01115,0.007681887170852624,Model identified elevated combined risk,0
+TX-TEST-01116,0.04422833976750237,Model identified elevated combined risk,0
+TX-TEST-01117,0.0919792863985794,Bank transfer,0
+TX-TEST-01118,0.027693763063873375,Bank transfer,0
+TX-TEST-01119,0.15091769896893198,Model identified elevated combined risk,0
+TX-TEST-01120,0.9965846046534399,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-01121,0.048085025918951266,Model identified elevated combined risk,0
+TX-TEST-01122,0.019752111615395876,Multiple failed logins,0
+TX-TEST-01123,0.983422623620689,Multiple failed logins | Unknown device,1
+TX-TEST-01124,0.03243807511362633,Bank transfer,0
+TX-TEST-01125,0.011361914824915137,Model identified elevated combined risk,0
+TX-TEST-01126,0.005184296224362233,Model identified elevated combined risk,0
+TX-TEST-01127,0.05388895370830648,Model identified elevated combined risk,0
+TX-TEST-01128,0.005185518981396385,Model identified elevated combined risk,0
+TX-TEST-01129,0.21956570757326313,Model identified elevated combined risk,0
+TX-TEST-01130,0.24436331318053398,Model identified elevated combined risk,0
+TX-TEST-01131,0.08946614768623407,Bank transfer,0
+TX-TEST-01132,0.007178964964984996,Unknown device,0
+TX-TEST-01133,0.0435037123659227,Unknown device,0
+TX-TEST-01134,0.031087411352039348,Bank transfer,0
+TX-TEST-01135,0.009365526504450569,Model identified elevated combined risk,0
+TX-TEST-01136,0.10364654192570122,Foreign transaction without travel notice,0
+TX-TEST-01137,0.12252179655360121,Model identified elevated combined risk,0
+TX-TEST-01138,0.005539418328737587,Model identified elevated combined risk,0
+TX-TEST-01139,0.9957115629027219,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-01140,0.009365526504450569,Model identified elevated combined risk,0
+TX-TEST-01141,0.008815237433199206,Multiple failed logins,0
+TX-TEST-01142,0.20402917632073062,Model identified elevated combined risk,0
+TX-TEST-01143,0.03809611150842545,Bank transfer,0
+TX-TEST-01144,0.05723680572609004,Bank transfer,0
+TX-TEST-01145,0.10261877476829381,Model identified elevated combined risk,0
+TX-TEST-01146,0.004261815834256896,Model identified elevated combined risk,0
+TX-TEST-01147,0.011087968887803017,Model identified elevated combined risk,0
+TX-TEST-01148,0.10139337768526761,New payee | Unknown device | Bank transfer,0
+TX-TEST-01149,0.14924878999027416,Model identified elevated combined risk,0
+TX-TEST-01150,0.0056099319834570045,Model identified elevated combined risk,0
+TX-TEST-01151,0.07838944302743912,Foreign transaction without travel notice,0
+TX-TEST-01152,0.00924019293645736,Model identified elevated combined risk,0
+TX-TEST-01153,0.012079478894270608,Model identified elevated combined risk,0
+TX-TEST-01154,0.06708490802517342,Bank transfer,0
+TX-TEST-01155,0.013168917541793224,Model identified elevated combined risk,0
+TX-TEST-01156,0.9840533876169817,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-01157,0.028732114830362265,Bank transfer,0
+TX-TEST-01158,0.19233201344040673,Model identified elevated combined risk,0
+TX-TEST-01159,0.00943007600350132,Model identified elevated combined risk,0
+TX-TEST-01160,0.9604252464926304,Amount unusually high | New payee | Multiple failed logins | Bank transfer,1
+TX-TEST-01161,0.13485526597888597,Model identified elevated combined risk,0
+TX-TEST-01162,0.005535395875497743,Model identified elevated combined risk,0
+TX-TEST-01163,0.030031361718178086,Model identified elevated combined risk,0
+TX-TEST-01164,0.009350856311112992,Model identified elevated combined risk,0
+TX-TEST-01165,0.1527781396465438,Model identified elevated combined risk,0
+TX-TEST-01166,0.17676022065275696,Model identified elevated combined risk,0
+TX-TEST-01167,0.010789714659398507,Model identified elevated combined risk,0
+TX-TEST-01168,0.012277487547982892,Model identified elevated combined risk,0
+TX-TEST-01169,0.05787117889782267,Model identified elevated combined risk,0
+TX-TEST-01170,0.268412462243427,Bank transfer | Overnight transaction,0
+TX-TEST-01171,0.991978967206993,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01172,0.020758448562809714,Bank transfer,0
+TX-TEST-01173,0.0374614872237548,Model identified elevated combined risk,0
+TX-TEST-01174,0.1878733175129677,Model identified elevated combined risk,0
+TX-TEST-01175,0.004833532738978419,Model identified elevated combined risk,0
+TX-TEST-01176,0.004567429352706142,Model identified elevated combined risk,0
+TX-TEST-01177,0.006311908755040658,Model identified elevated combined risk,0
+TX-TEST-01178,0.03772900912613277,Model identified elevated combined risk,0
+TX-TEST-01179,0.009270957645221387,Model identified elevated combined risk,0
+TX-TEST-01180,0.004837804423613862,Model identified elevated combined risk,0
+TX-TEST-01181,0.00529908350515287,Model identified elevated combined risk,0
+TX-TEST-01182,0.08738306899829894,Model identified elevated combined risk,0
+TX-TEST-01183,0.05028426752968634,Multiple failed logins,0
+TX-TEST-01184,0.004622972708827638,Model identified elevated combined risk,0
+TX-TEST-01185,0.03401457019121346,Unknown device,0
+TX-TEST-01186,0.0048823475233497945,Model identified elevated combined risk,0
+TX-TEST-01187,0.04593579913254606,Model identified elevated combined risk,0
+TX-TEST-01188,0.03681197301077226,Model identified elevated combined risk,0
+TX-TEST-01189,0.006119656167706585,Foreign transaction without travel notice,0
+TX-TEST-01190,0.021605193319649937,Bank transfer,0
+TX-TEST-01191,0.0407542535029194,Model identified elevated combined risk,0
+TX-TEST-01192,0.007712221759909039,Model identified elevated combined risk,0
+TX-TEST-01193,0.008404985793167622,Model identified elevated combined risk,0
+TX-TEST-01194,0.036943741259466076,Model identified elevated combined risk,0
+TX-TEST-01195,0.12099617204412284,Model identified elevated combined risk,0
+TX-TEST-01196,0.18843549206252622,Bank transfer,0
+TX-TEST-01197,0.9962958535403992,Amount unusually high | New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-01198,0.2155182607933503,Model identified elevated combined risk,0
+TX-TEST-01199,0.1136117785856431,Model identified elevated combined risk,0
+TX-TEST-01200,0.03780164168367469,Model identified elevated combined risk,0
+TX-TEST-01201,0.03708390156854933,Model identified elevated combined risk,0
+TX-TEST-01202,0.09065621910018681,Model identified elevated combined risk,0
+TX-TEST-01203,0.004619494204972629,Foreign transaction without travel notice,0
+TX-TEST-01204,0.008438794483208525,Model identified elevated combined risk,0
+TX-TEST-01205,0.006066824734023091,Model identified elevated combined risk,0
+TX-TEST-01206,0.004916649457994241,Foreign transaction without travel notice,0
+TX-TEST-01207,0.04361756143753598,Unknown device,0
+TX-TEST-01208,0.04109342329563592,Bank transfer,0
+TX-TEST-01209,0.037017091263352085,Model identified elevated combined risk,0
+TX-TEST-01210,0.010380213256599899,Model identified elevated combined risk,0
+TX-TEST-01211,0.005199414861744707,Model identified elevated combined risk,0
+TX-TEST-01212,0.0050142286614533954,Unknown device,0
+TX-TEST-01213,0.050698474940500726,Foreign transaction without travel notice,0
+TX-TEST-01214,0.036292086406572076,Model identified elevated combined risk,0
+TX-TEST-01215,0.004755437075064164,Model identified elevated combined risk,0
+TX-TEST-01216,0.009356142906755434,Model identified elevated combined risk,0
+TX-TEST-01217,0.0825166779012413,Model identified elevated combined risk,0
+TX-TEST-01218,0.03157530794420252,Unknown device,0
+TX-TEST-01219,0.07959804189120248,Unknown device,0
+TX-TEST-01220,0.02283182199536514,Multiple failed logins,0
+TX-TEST-01221,0.02142602412981775,Bank transfer,0
+TX-TEST-01222,0.15442888083772988,Model identified elevated combined risk,0
+TX-TEST-01223,0.15442888083772988,Model identified elevated combined risk,0
+TX-TEST-01224,0.003128736447915594,Foreign transaction without travel notice,0
+TX-TEST-01225,0.12119906121211368,Model identified elevated combined risk,0
+TX-TEST-01226,0.0931462342880576,Model identified elevated combined risk,0
+TX-TEST-01227,0.011857424681276645,Multiple failed logins | Foreign transaction without travel notice,0
+TX-TEST-01228,0.005271700453387628,Model identified elevated combined risk,0
+TX-TEST-01229,0.15478257366021406,Model identified elevated combined risk,0
+TX-TEST-01230,0.005272487237883401,Model identified elevated combined risk,0
+TX-TEST-01231,0.12234797297856054,Model identified elevated combined risk,0
+TX-TEST-01232,0.003543454635286376,Model identified elevated combined risk,0
+TX-TEST-01233,0.0040824358642265945,Model identified elevated combined risk,0
+TX-TEST-01234,0.09933604349236766,Bank transfer | Overnight transaction,0
+TX-TEST-01235,0.6233275583722804,Overnight transaction,1
+TX-TEST-01236,0.007842435638993126,Unknown device | Overnight transaction,0
+TX-TEST-01237,0.9829444072828186,Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01238,0.08214545474305267,Bank transfer | Overnight transaction,0
+TX-TEST-01239,0.9938852917720393,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01240,0.9974315724594917,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01241,0.14125521047810022,Overnight transaction,0
+TX-TEST-01242,0.990363470189453,Amount unusually high | New payee | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-01243,0.13981701168251565,Model identified elevated combined risk,0
+TX-TEST-01244,0.005616625141142226,Model identified elevated combined risk,0
+TX-TEST-01245,0.004782518931075474,Model identified elevated combined risk,0
+TX-TEST-01246,0.004936613493316372,Model identified elevated combined risk,0
+TX-TEST-01247,0.011214095674949666,Model identified elevated combined risk,0
+TX-TEST-01248,0.1503412013350983,Model identified elevated combined risk,0
+TX-TEST-01249,0.04835833098926309,Multiple failed logins | Bank transfer,0
+TX-TEST-01250,0.03788391068185356,Model identified elevated combined risk,0
+TX-TEST-01251,0.10676263954469885,Model identified elevated combined risk,0
+TX-TEST-01252,0.004875140109520854,Model identified elevated combined risk,0
+TX-TEST-01253,0.04164688621801841,Model identified elevated combined risk,0
+TX-TEST-01254,0.009714204922593193,Multiple failed logins,0
+TX-TEST-01255,0.03077810948940603,Bank transfer,0
+TX-TEST-01256,0.036842678874681255,Unknown device,0
+TX-TEST-01257,0.006319661831395021,Model identified elevated combined risk,0
+TX-TEST-01258,0.04250532235309995,Model identified elevated combined risk,0
+TX-TEST-01259,0.02359149222515124,Unknown device | Bank transfer,0
+TX-TEST-01260,0.003964947713120703,Model identified elevated combined risk,0
+TX-TEST-01261,0.13259269384153766,Model identified elevated combined risk,0
+TX-TEST-01262,0.012812326085836873,Amount unusually high,0
+TX-TEST-01263,0.010751695018728169,Model identified elevated combined risk,0
+TX-TEST-01264,0.03198877284477651,Model identified elevated combined risk,0
+TX-TEST-01265,0.13361435664714555,Model identified elevated combined risk,0
+TX-TEST-01266,0.038692966159914646,Model identified elevated combined risk,0
+TX-TEST-01267,0.0560481045234059,Foreign transaction without travel notice,0
+TX-TEST-01268,0.003979274907171794,Model identified elevated combined risk,0
+TX-TEST-01269,0.003206213146721755,Multiple failed logins,0
+TX-TEST-01270,0.051456107026435445,Multiple failed logins | Foreign transaction without travel notice,0
+TX-TEST-01271,0.14847445332101797,Model identified elevated combined risk,0
+TX-TEST-01272,0.005091800798809286,Model identified elevated combined risk,0
+TX-TEST-01273,0.004284486775707147,Model identified elevated combined risk,0
+TX-TEST-01274,0.11181334760825827,Model identified elevated combined risk,0
+TX-TEST-01275,0.05742464414016366,Bank transfer,0
+TX-TEST-01276,0.0050357295791352945,Model identified elevated combined risk,0
+TX-TEST-01277,0.10665318473182896,Unknown device,0
+TX-TEST-01278,0.11650257211240943,Bank transfer,0
+TX-TEST-01279,0.1372567234375074,Model identified elevated combined risk,0
+TX-TEST-01280,0.010522041523128167,Model identified elevated combined risk,0
+TX-TEST-01281,0.11270724936774212,Amount unusually high,0
+TX-TEST-01282,0.09317143080669117,Model identified elevated combined risk,0
+TX-TEST-01283,0.025722957296719712,Bank transfer,0
+TX-TEST-01284,0.12077406130447775,Bank transfer,0
+TX-TEST-01285,0.024018327987664304,Bank transfer,0
+TX-TEST-01286,0.0032518311415388446,Unknown device,0
+TX-TEST-01287,0.18494298206716547,Foreign transaction without travel notice,0
+TX-TEST-01288,0.003517623936123195,Unknown device,0
+TX-TEST-01289,0.995463891379385,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-01290,0.0385695078912553,Model identified elevated combined risk,0
+TX-TEST-01291,0.03781015196463053,Model identified elevated combined risk,0
+TX-TEST-01292,0.03857684584765656,Model identified elevated combined risk,0
+TX-TEST-01293,0.13610593658963863,Amount unusually high,0
+TX-TEST-01294,0.012045657539863374,Model identified elevated combined risk,0
+TX-TEST-01295,0.006122488514470882,Model identified elevated combined risk,0
+TX-TEST-01296,0.006826302695541113,Unknown device,0
+TX-TEST-01297,0.0094740451067815,Multiple failed logins,0
+TX-TEST-01298,0.002830151734533722,Unknown device,0
+TX-TEST-01299,0.9959037365113295,Amount unusually high | New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-01300,0.005220226086150034,Model identified elevated combined risk,0
+TX-TEST-01301,0.03935516420327755,Model identified elevated combined risk,0
+TX-TEST-01302,0.24230700645470277,Model identified elevated combined risk,0
+TX-TEST-01303,0.006490719944240526,Model identified elevated combined risk,0
+TX-TEST-01304,0.005219104671231299,Model identified elevated combined risk,0
+TX-TEST-01305,0.0825924514526138,Foreign transaction without travel notice,0
+TX-TEST-01306,0.9959663512362316,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01307,0.9810234133246691,Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01308,0.9974727967768907,Amount unusually high | New payee | Bank transfer | Overnight transaction,1
+TX-TEST-01309,0.9941430040474304,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01310,0.9818781902785088,Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01311,0.004818915990269564,Model identified elevated combined risk,0
+TX-TEST-01312,0.03322024922774824,Bank transfer,0
+TX-TEST-01313,0.006830261641984554,Model identified elevated combined risk,0
+TX-TEST-01314,0.9172865273911939,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-01315,0.2080647947584051,Model identified elevated combined risk,0
+TX-TEST-01316,0.07564232221403994,Bank transfer,0
+TX-TEST-01317,0.018354322624285768,Model identified elevated combined risk,0
+TX-TEST-01318,0.006879637271831589,Model identified elevated combined risk,0
+TX-TEST-01319,0.9765439524170816,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-01320,0.00693181033327887,Model identified elevated combined risk,0
+TX-TEST-01321,0.015800373065033062,Model identified elevated combined risk,0
+TX-TEST-01322,0.004886639510377674,Unknown device,0
+TX-TEST-01323,0.009056563744192857,Multiple failed logins,0
+TX-TEST-01324,0.1481942721371936,Model identified elevated combined risk,0
+TX-TEST-01325,0.011329391566063874,Model identified elevated combined risk,0
+TX-TEST-01326,0.05957074759782075,Model identified elevated combined risk,0
+TX-TEST-01327,0.016308971583578153,Model identified elevated combined risk,0
+TX-TEST-01328,0.22915471763720952,Model identified elevated combined risk,0
+TX-TEST-01329,0.005830378246632095,Model identified elevated combined risk,0
+TX-TEST-01330,0.1931753409123278,Model identified elevated combined risk,0
+TX-TEST-01331,0.032768041844697796,Bank transfer,0
+TX-TEST-01332,0.008019804183118902,Model identified elevated combined risk,0
+TX-TEST-01333,0.007088975609948083,Model identified elevated combined risk,0
+TX-TEST-01334,0.06779244972375438,Bank transfer,0
+TX-TEST-01335,0.0075687468834200935,Model identified elevated combined risk,0
+TX-TEST-01336,0.005107367987280207,Unknown device,0
+TX-TEST-01337,0.006334375101022541,Model identified elevated combined risk,0
+TX-TEST-01338,0.06009051359965331,Model identified elevated combined risk,0
+TX-TEST-01339,0.9251610207117458,Foreign transaction without travel notice,1
+TX-TEST-01340,0.2781173539119142,Model identified elevated combined risk,0
+TX-TEST-01341,0.18732471873997913,Model identified elevated combined risk,0
+TX-TEST-01342,0.0614878596439365,Model identified elevated combined risk,0
+TX-TEST-01343,0.006334375101022541,Model identified elevated combined risk,0
+TX-TEST-01344,0.06219671374557431,Model identified elevated combined risk,0
+TX-TEST-01345,0.2795147467611665,Model identified elevated combined risk,0
+TX-TEST-01346,0.17209926938456904,Model identified elevated combined risk,0
+TX-TEST-01347,0.06009051359965331,Model identified elevated combined risk,0
+TX-TEST-01348,0.2224329644037589,Model identified elevated combined risk,0
+TX-TEST-01349,0.13723374773517924,Model identified elevated combined risk,0
+TX-TEST-01350,0.23586026649026198,Model identified elevated combined risk,0
+TX-TEST-01351,0.0064316695216633975,Model identified elevated combined risk,0
+TX-TEST-01352,0.01622332881975462,Model identified elevated combined risk,0
+TX-TEST-01353,0.209497745577177,Model identified elevated combined risk,0
+TX-TEST-01354,0.9628015955938829,Amount unusually high | New payee | Unknown device | Bank transfer,1
+TX-TEST-01355,0.016228780580184267,Model identified elevated combined risk,0
+TX-TEST-01356,0.19624231405361875,Model identified elevated combined risk,0
+TX-TEST-01357,0.03838434215021931,Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-01358,0.006643089310437274,Model identified elevated combined risk,0
+TX-TEST-01359,0.058177231943831266,Model identified elevated combined risk,0
+TX-TEST-01360,0.00936779216772104,Multiple failed logins,0
+TX-TEST-01361,0.06977675238783554,Model identified elevated combined risk,0
+TX-TEST-01362,0.0904478070615283,Bank transfer,0
+TX-TEST-01363,0.12011510719037641,Multiple failed logins,0
+TX-TEST-01364,0.05713878602619651,Model identified elevated combined risk,0
+TX-TEST-01365,0.056703238953634306,Model identified elevated combined risk,0
+TX-TEST-01366,0.05823206303218484,Model identified elevated combined risk,0
+TX-TEST-01367,0.08080617702462353,Multiple failed logins,0
+TX-TEST-01368,0.03166651173687674,Bank transfer,0
+TX-TEST-01369,0.03166651173687674,Bank transfer,0
+TX-TEST-01370,0.22182860018326384,Model identified elevated combined risk,0
+TX-TEST-01371,0.8770844025203351,New payee | Bank transfer,1
+TX-TEST-01372,0.01592194516891818,Model identified elevated combined risk,0
+TX-TEST-01373,0.012984372413867419,Model identified elevated combined risk,0
+TX-TEST-01374,0.8960944780454978,Foreign transaction without travel notice,1
+TX-TEST-01375,0.14231218642106286,Model identified elevated combined risk,0
+TX-TEST-01376,0.06268560569145618,Model identified elevated combined risk,0
+TX-TEST-01377,0.19872837014076544,Model identified elevated combined risk,0
+TX-TEST-01378,0.00962810668075033,Unknown device,0
+TX-TEST-01379,0.026997921938316793,Model identified elevated combined risk,0
+TX-TEST-01380,0.004944413334941133,Model identified elevated combined risk,0
+TX-TEST-01381,0.004673767184517418,Foreign transaction without travel notice,0
+TX-TEST-01382,0.026180236206944547,Overnight transaction,0
+TX-TEST-01383,0.1051413171568718,Unknown device | Overnight transaction,0
+TX-TEST-01384,0.06747889656524417,Foreign transaction without travel notice,0
+TX-TEST-01385,0.032509216615067886,Bank transfer,0
+TX-TEST-01386,0.004864310273493243,Unknown device,0
+TX-TEST-01387,0.0057887744634912445,Model identified elevated combined risk,0
+TX-TEST-01388,0.16654949029940247,New payee | Bank transfer,0
+TX-TEST-01389,0.008018040442091975,Multiple failed logins,0
+TX-TEST-01390,0.05953669816881889,Foreign transaction without travel notice,0
+TX-TEST-01391,0.00483855580243624,Foreign transaction without travel notice,0
+TX-TEST-01392,0.004788115707503891,Foreign transaction without travel notice,0
+TX-TEST-01393,0.018329993307510725,Model identified elevated combined risk,0
+TX-TEST-01394,0.07441524131657573,Bank transfer,0
+TX-TEST-01395,0.10066661280700807,Unknown device,0
+TX-TEST-01396,0.05884603920049255,Model identified elevated combined risk,0
+TX-TEST-01397,0.009661828192355304,Model identified elevated combined risk,0
+TX-TEST-01398,0.9964819938138989,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-01399,0.03311801662235175,Bank transfer,0
+TX-TEST-01400,0.034800129767813534,Bank transfer,0
+TX-TEST-01401,0.060591455554280665,Model identified elevated combined risk,0
+TX-TEST-01402,0.00667816238515489,Model identified elevated combined risk,0
+TX-TEST-01403,0.057560492612775856,Model identified elevated combined risk,0
+TX-TEST-01404,0.3325584748408145,Foreign transaction without travel notice,0
+TX-TEST-01405,0.10089083240745465,New payee | Bank transfer,0
+TX-TEST-01406,0.005623900091193032,Model identified elevated combined risk,0
+TX-TEST-01407,0.06274627159851222,Model identified elevated combined risk,0
+TX-TEST-01408,0.01219562907819685,Foreign transaction without travel notice,0
+TX-TEST-01409,0.2145073019581231,Multiple failed logins,0
+TX-TEST-01410,0.009478645364488716,Model identified elevated combined risk,0
+TX-TEST-01411,0.06599106075342068,Bank transfer,0
+TX-TEST-01412,0.034247220463257746,Bank transfer,0
+TX-TEST-01413,0.03714474348840077,Bank transfer,0
+TX-TEST-01414,0.17186724448151627,Model identified elevated combined risk,0
+TX-TEST-01415,0.12504614979632697,Bank transfer,0
+TX-TEST-01416,0.06139084552867449,Model identified elevated combined risk,0
+TX-TEST-01417,0.9799178531278433,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-01418,0.013133513531851259,Model identified elevated combined risk,0
+TX-TEST-01419,0.05989790900994505,Model identified elevated combined risk,0
+TX-TEST-01420,0.006285497273263456,Model identified elevated combined risk,0
+TX-TEST-01421,0.004212184829113741,Unknown device,0
+TX-TEST-01422,0.039750184044509,Multiple failed logins,0
+TX-TEST-01423,0.006748361808468021,Model identified elevated combined risk,0
+TX-TEST-01424,0.011609758109808578,Multiple failed logins,0
+TX-TEST-01425,0.05642341961134673,Model identified elevated combined risk,0
+TX-TEST-01426,0.008853118661089569,Model identified elevated combined risk,0
+TX-TEST-01427,0.00660935846634043,Model identified elevated combined risk,0
+TX-TEST-01428,0.03569283285875206,Bank transfer,0
+TX-TEST-01429,0.11848321295213976,Unknown device,0
+TX-TEST-01430,0.016177099995334215,Model identified elevated combined risk,0
+TX-TEST-01431,0.012858322693869967,Model identified elevated combined risk,0
+TX-TEST-01432,0.060354325830605696,Model identified elevated combined risk,0
+TX-TEST-01433,0.03616408884192179,Bank transfer,0
+TX-TEST-01434,0.008123346077605842,Model identified elevated combined risk,0
+TX-TEST-01435,0.006199432724449297,Model identified elevated combined risk,0
+TX-TEST-01436,0.14052256578317537,Model identified elevated combined risk,0
+TX-TEST-01437,0.012857322861052895,Model identified elevated combined risk,0
+TX-TEST-01438,0.07199041288848117,Bank transfer,0
+TX-TEST-01439,0.07173314254845954,Foreign transaction without travel notice,0
+TX-TEST-01440,0.006252758984431932,Model identified elevated combined risk,0
+TX-TEST-01441,0.1703605663613948,Model identified elevated combined risk,0
+TX-TEST-01442,0.015695816148584455,Unknown device,0
+TX-TEST-01443,0.049398843932002265,Model identified elevated combined risk,0
+TX-TEST-01444,0.166164917695498,Unknown device,0
+TX-TEST-01445,0.006304346175601183,Model identified elevated combined risk,0
+TX-TEST-01446,0.08310480395483465,Multiple failed logins,0
+TX-TEST-01447,0.11292797359722476,Amount unusually high,0
+TX-TEST-01448,0.1457417839487111,Model identified elevated combined risk,0
+TX-TEST-01449,0.04832171534104085,Model identified elevated combined risk,0
+TX-TEST-01450,0.05860830292764884,Model identified elevated combined risk,0
+TX-TEST-01451,0.006363928888030439,Model identified elevated combined risk,0
+TX-TEST-01452,0.008244474692729991,Model identified elevated combined risk,0
+TX-TEST-01453,0.11819221301432448,Unknown device,0
+TX-TEST-01454,0.01566413169024917,Multiple failed logins,0
+TX-TEST-01455,0.05196389342398573,Model identified elevated combined risk,0
+TX-TEST-01456,0.033187556951283795,Bank transfer,0
+TX-TEST-01457,0.0578617851906353,Model identified elevated combined risk,0
+TX-TEST-01458,0.983577764669789,Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01459,0.7038529872264851,Overnight transaction,1
+TX-TEST-01460,0.8222050330556351,New payee | Bank transfer | Overnight transaction,1
+TX-TEST-01461,0.9888057952445037,New payee | Bank transfer | Overnight transaction,1
+TX-TEST-01462,0.10742858980699817,Overnight transaction,0
+TX-TEST-01463,0.14983946951454002,Model identified elevated combined risk,0
+TX-TEST-01464,0.006900739944267686,Model identified elevated combined risk,0
+TX-TEST-01465,0.08476685922527424,Bank transfer,0
+TX-TEST-01466,0.00915513370963899,Model identified elevated combined risk,0
+TX-TEST-01467,0.05561950309850024,Model identified elevated combined risk,0
+TX-TEST-01468,0.05673154100995157,Bank transfer,0
+TX-TEST-01469,0.029795605918462028,Bank transfer,0
+TX-TEST-01470,0.1433106643799438,Model identified elevated combined risk,0
+TX-TEST-01471,0.9779446763661077,Amount unusually high | Multiple failed logins | Unknown device,1
+TX-TEST-01472,0.1640049975437455,Model identified elevated combined risk,0
+TX-TEST-01473,0.22930066185712344,Model identified elevated combined risk,0
+TX-TEST-01474,0.24009613836471377,Model identified elevated combined risk,0
+TX-TEST-01475,0.1640049975437455,Model identified elevated combined risk,0
+TX-TEST-01476,0.058012378799274435,Model identified elevated combined risk,0
+TX-TEST-01477,0.05698957130036834,Model identified elevated combined risk,0
+TX-TEST-01478,0.031931995324474625,Bank transfer,0
+TX-TEST-01479,0.008901131228084688,Unknown device,0
+TX-TEST-01480,0.057437617861321344,Model identified elevated combined risk,0
+TX-TEST-01481,0.0725848364530835,Model identified elevated combined risk,0
+TX-TEST-01482,0.0388559951132833,Multiple failed logins,0
+TX-TEST-01483,0.014836019612876377,Model identified elevated combined risk,0
+TX-TEST-01484,0.10767207992938127,Foreign transaction without travel notice,0
+TX-TEST-01485,0.0725329728800495,Bank transfer,0
+TX-TEST-01486,0.20466759132858706,Model identified elevated combined risk,0
+TX-TEST-01487,0.05871844048276596,Model identified elevated combined risk,0
+TX-TEST-01488,0.23092769299290744,Model identified elevated combined risk,0
+TX-TEST-01489,0.05701124162326466,Model identified elevated combined risk,0
+TX-TEST-01490,0.05956508819745627,Model identified elevated combined risk,0
+TX-TEST-01491,0.004597376937602649,Unknown device,0
+TX-TEST-01492,0.015995580336390588,Model identified elevated combined risk,0
+TX-TEST-01493,0.05876733418132388,Model identified elevated combined risk,0
+TX-TEST-01494,0.09583151084778568,Model identified elevated combined risk,0
+TX-TEST-01495,0.9849732280735917,Multiple failed logins | Unknown device,1
+TX-TEST-01496,0.011114536975229388,Model identified elevated combined risk,0
+TX-TEST-01497,0.061375702618691366,Model identified elevated combined risk,0
+TX-TEST-01498,0.008896109685365016,Model identified elevated combined risk,0
+TX-TEST-01499,0.1561144157661447,Model identified elevated combined risk,0
+TX-TEST-01500,0.7767143767726957,Amount unusually high | New payee | Bank transfer,1
+TX-TEST-01501,0.0328451761096163,Bank transfer,0
+TX-TEST-01502,0.23274563458158243,Model identified elevated combined risk,0
+TX-TEST-01503,0.00634033322434381,Model identified elevated combined risk,0
+TX-TEST-01504,0.0052432482336309755,Model identified elevated combined risk,0
+TX-TEST-01505,0.16993080509935424,Model identified elevated combined risk,0
+TX-TEST-01506,0.9878309798676926,Multiple failed logins | Unknown device,1
+TX-TEST-01507,0.8947856494345756,Foreign transaction without travel notice,1
+TX-TEST-01508,0.012598845808657916,Model identified elevated combined risk,0
+TX-TEST-01509,0.028918428207020733,Bank transfer,0
+TX-TEST-01510,0.0064613454030928155,Model identified elevated combined risk,0
+TX-TEST-01511,0.19522857398211066,Multiple failed logins,0
+TX-TEST-01512,0.07199946136715285,Foreign transaction without travel notice,0
+TX-TEST-01513,0.09410328815141314,New payee | Bank transfer,0
+TX-TEST-01514,0.012190343439259212,Model identified elevated combined risk,0
+TX-TEST-01515,0.009069605072887352,Multiple failed logins,0
+TX-TEST-01516,0.186462268615794,Model identified elevated combined risk,0
+TX-TEST-01517,0.15778181120941134,Model identified elevated combined risk,0
+TX-TEST-01518,0.006667934213740273,Model identified elevated combined risk,0
+TX-TEST-01519,0.006343096995897317,Model identified elevated combined risk,0
+TX-TEST-01520,0.05812717627085563,Model identified elevated combined risk,0
+TX-TEST-01521,0.15859234110919615,Model identified elevated combined risk,0
+TX-TEST-01522,0.9775768973751662,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-01523,0.012399924478066364,Model identified elevated combined risk,0
+TX-TEST-01524,0.011271064812491134,Model identified elevated combined risk,0
+TX-TEST-01525,0.010846907207996564,Model identified elevated combined risk,0
+TX-TEST-01526,0.30438374414095415,Unknown device | Overnight transaction,0
+TX-TEST-01527,0.9960142433084094,Amount unusually high | New payee | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-01528,0.02702740188398563,Overnight transaction,0
+TX-TEST-01529,0.07726624552846494,Foreign transaction without travel notice | Bank transfer | Overnight transaction,0
+TX-TEST-01530,0.9948613761215728,Amount unusually high | New payee | Multiple failed logins | Bank transfer | Overnight transaction,1
+TX-TEST-01531,0.11024587109945737,Overnight transaction,0
+TX-TEST-01532,0.9919729119466426,New payee | Bank transfer | Overnight transaction,1
+TX-TEST-01533,0.9825429882858255,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01534,0.9950181923380489,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-01535,0.11961318854371997,Model identified elevated combined risk,0
+TX-TEST-01536,0.04032431238733712,Multiple failed logins,0
+TX-TEST-01537,0.13222809571072738,Model identified elevated combined risk,0
+TX-TEST-01538,0.004022533651889458,Foreign transaction without travel notice,0
+TX-TEST-01539,0.015759270080860963,Multiple failed logins | Bank transfer,0
+TX-TEST-01540,0.047267457215631525,Model identified elevated combined risk,0
+TX-TEST-01541,0.004202628615885927,Model identified elevated combined risk,0
+TX-TEST-01542,0.6796938546303811,New payee | Bank transfer,1
+TX-TEST-01543,0.034511960781520544,Model identified elevated combined risk,0
+TX-TEST-01544,0.07952661738681126,Bank transfer,0
+TX-TEST-01545,0.19290859196232105,Model identified elevated combined risk,0
+TX-TEST-01546,0.012066641715106505,Model identified elevated combined risk,0
+TX-TEST-01547,0.21737803428288865,Model identified elevated combined risk,0
+TX-TEST-01548,0.03496081913284756,Multiple failed logins | Unknown device,0
+TX-TEST-01549,0.0524800156230417,Model identified elevated combined risk,0
+TX-TEST-01550,0.04781657349718831,Model identified elevated combined risk,0
+TX-TEST-01551,0.004717756675917955,Model identified elevated combined risk,0
+TX-TEST-01552,0.048816628257157026,Model identified elevated combined risk,0
+TX-TEST-01553,0.9163322278273898,Foreign transaction without travel notice,1
+TX-TEST-01554,0.011953051227842498,Model identified elevated combined risk,0
+TX-TEST-01555,0.0076618301544467225,Model identified elevated combined risk,0
+TX-TEST-01556,0.004514273133043681,Unknown device,0
+TX-TEST-01557,0.004183565193524115,Model identified elevated combined risk,0
+TX-TEST-01558,0.15615161673695555,Model identified elevated combined risk,0
+TX-TEST-01559,0.14527243064252843,Model identified elevated combined risk,0
+TX-TEST-01560,0.011547287404343803,Model identified elevated combined risk,0
+TX-TEST-01561,0.08782164188410896,Bank transfer,0
+TX-TEST-01562,0.049725849885425895,Model identified elevated combined risk,0
+TX-TEST-01563,0.005633816001548624,Model identified elevated combined risk,0
+TX-TEST-01564,0.008162457762507727,Unknown device,0
+TX-TEST-01565,0.002086817188936372,Unknown device,0
+TX-TEST-01566,0.12231007830033622,Model identified elevated combined risk,0
+TX-TEST-01567,0.014801896603954711,Model identified elevated combined risk,0
+TX-TEST-01568,0.0061903501752766385,Model identified elevated combined risk,0
+TX-TEST-01569,0.04994246341872323,Model identified elevated combined risk,0
+TX-TEST-01570,0.008033914196636762,Model identified elevated combined risk,0
+TX-TEST-01571,0.005443134010600804,Model identified elevated combined risk,0
+TX-TEST-01572,0.15583756719927216,Model identified elevated combined risk,0
+TX-TEST-01573,0.005336609541942487,Model identified elevated combined risk,0
+TX-TEST-01574,0.9815645072690822,Amount unusually high | New payee | Bank transfer,1
+TX-TEST-01575,0.1376956464875304,Model identified elevated combined risk,0
+TX-TEST-01576,0.035923496358723356,Multiple failed logins,0
+TX-TEST-01577,0.11514343172292824,Bank transfer,0
+TX-TEST-01578,0.008322035636236094,Model identified elevated combined risk,0
+TX-TEST-01579,0.008977874510717056,Model identified elevated combined risk,0
+TX-TEST-01580,0.004603125746105725,Foreign transaction without travel notice,0
+TX-TEST-01581,0.014314055749753288,Model identified elevated combined risk,0
+TX-TEST-01582,0.006327344296006205,Model identified elevated combined risk,0
+TX-TEST-01583,0.008078825681773975,Multiple failed logins,0
+TX-TEST-01584,0.007946954596770925,Model identified elevated combined risk,0
+TX-TEST-01585,0.9759119323119666,New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-01586,0.04941865607675891,Model identified elevated combined risk,0
+TX-TEST-01587,0.007946954596770925,Model identified elevated combined risk,0
+TX-TEST-01588,0.01436004686283688,Model identified elevated combined risk,0
+TX-TEST-01589,0.0053089654840680085,Model identified elevated combined risk,0
+TX-TEST-01590,0.9937063886664413,Amount unusually high | New payee | Unknown device | Bank transfer,1
+TX-TEST-01591,0.025108896490983246,Bank transfer,0
+TX-TEST-01592,0.06651342429427287,Bank transfer,0
+TX-TEST-01593,0.06475267427332994,Bank transfer,0
+TX-TEST-01594,0.0838683747636278,Unknown device,0
+TX-TEST-01595,0.09320697006527849,Model identified elevated combined risk,0
+TX-TEST-01596,0.014324127322606996,Model identified elevated combined risk,0
+TX-TEST-01597,0.05898661179465126,Model identified elevated combined risk,0
+TX-TEST-01598,0.005245314283303417,Model identified elevated combined risk,0
+TX-TEST-01599,0.011066355048791533,Model identified elevated combined risk,0
+TX-TEST-01600,0.006866719661927637,Model identified elevated combined risk,0
+TX-TEST-01601,0.004546987266021557,Model identified elevated combined risk,0
+TX-TEST-01602,0.007902364898665177,Model identified elevated combined risk,0
+TX-TEST-01603,0.14178906318303705,Model identified elevated combined risk,0
+TX-TEST-01604,0.003547467359542789,Model identified elevated combined risk,0
+TX-TEST-01605,0.08067357159701058,Multiple failed logins,0
+TX-TEST-01606,0.337674537609927,Overnight transaction,0
+TX-TEST-01607,0.8027919791107476,Overnight transaction,1
+TX-TEST-01608,0.08656392639098111,Bank transfer | Overnight transaction,0
+TX-TEST-01609,0.9945998997378419,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-01610,0.0799669877761599,Amount unusually high | Overnight transaction,0
+TX-TEST-01611,0.9973993971345427,Amount unusually high | Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01612,0.10376371630659431,Multiple failed logins | Unknown device,0
+TX-TEST-01613,0.07196248672334146,Bank transfer,0
+TX-TEST-01614,0.005569283663960409,Model identified elevated combined risk,0
+TX-TEST-01615,0.00631078311746284,Model identified elevated combined risk,0
+TX-TEST-01616,0.00454790623317947,Model identified elevated combined risk,0
+TX-TEST-01617,0.09495055368356853,Foreign transaction without travel notice,0
+TX-TEST-01618,0.005512473652971923,Model identified elevated combined risk,0
+TX-TEST-01619,0.006528570736191181,Model identified elevated combined risk,0
+TX-TEST-01620,0.045037196585124936,Model identified elevated combined risk,0
+TX-TEST-01621,0.026423913578512957,Bank transfer,0
+TX-TEST-01622,0.03982703683977668,Bank transfer,0
+TX-TEST-01623,0.005072115237106024,Model identified elevated combined risk,0
+TX-TEST-01624,0.04612252986397045,Model identified elevated combined risk,0
+TX-TEST-01625,0.23192340688895735,Model identified elevated combined risk,0
+TX-TEST-01626,0.04679278584163644,Model identified elevated combined risk,0
+TX-TEST-01627,0.04716153541880163,Model identified elevated combined risk,0
+TX-TEST-01628,0.0458706307352316,Model identified elevated combined risk,0
+TX-TEST-01629,0.18006607073506165,Model identified elevated combined risk,0
+TX-TEST-01630,0.17436298095719155,Model identified elevated combined risk,0
+TX-TEST-01631,0.05839396987497816,Bank transfer,0
+TX-TEST-01632,0.07335062311983076,Bank transfer,0
+TX-TEST-01633,0.005253149947920733,Model identified elevated combined risk,0
+TX-TEST-01634,0.04729678241659038,Model identified elevated combined risk,0
+TX-TEST-01635,0.07862892206177353,Model identified elevated combined risk,0
+TX-TEST-01636,0.04827379050594303,Model identified elevated combined risk,0
+TX-TEST-01637,0.047020144885682846,Model identified elevated combined risk,0
+TX-TEST-01638,0.0037219739907046498,Model identified elevated combined risk,0
+TX-TEST-01639,0.1488871351851363,Foreign transaction without travel notice,0
+TX-TEST-01640,0.0054638541856006,Model identified elevated combined risk,0
+TX-TEST-01641,0.014228593563259645,Model identified elevated combined risk,0
+TX-TEST-01642,0.002412666397186818,Foreign transaction without travel notice,0
+TX-TEST-01643,0.005144734422166662,Model identified elevated combined risk,0
+TX-TEST-01644,0.11054243392633223,Model identified elevated combined risk,0
+TX-TEST-01645,0.06105139469818668,Bank transfer,0
+TX-TEST-01646,0.04556023374505046,Model identified elevated combined risk,0
+TX-TEST-01647,0.038600623925721535,Model identified elevated combined risk,0
+TX-TEST-01648,0.0038120162697486554,Foreign transaction without travel notice,0
+TX-TEST-01649,0.028045763393632392,Bank transfer,0
+TX-TEST-01650,0.006941228754398943,Model identified elevated combined risk,0
+TX-TEST-01651,0.04559474405401154,Model identified elevated combined risk,0
+TX-TEST-01652,0.13610498065864973,Model identified elevated combined risk,0
+TX-TEST-01653,0.055408879971275936,Model identified elevated combined risk,0
+TX-TEST-01654,0.028355608516338345,Model identified elevated combined risk,0
+TX-TEST-01655,0.0053946878018264035,Model identified elevated combined risk,0
+TX-TEST-01656,0.04648265958551835,Model identified elevated combined risk,0
+TX-TEST-01657,0.08837845120432103,Bank transfer,0
+TX-TEST-01658,0.008427802597711854,Model identified elevated combined risk,0
+TX-TEST-01659,0.00505508696463461,Model identified elevated combined risk,0
+TX-TEST-01660,0.11766583729815507,Model identified elevated combined risk,0
+TX-TEST-01661,0.005052183394920695,Model identified elevated combined risk,0
+TX-TEST-01662,0.00999518709305123,Model identified elevated combined risk,0
+TX-TEST-01663,0.04731501508591287,Model identified elevated combined risk,0
+TX-TEST-01664,0.03022106740929031,Bank transfer,0
+TX-TEST-01665,0.0110704231962276,Model identified elevated combined risk,0
+TX-TEST-01666,0.010925581871786104,Unknown device,0
+TX-TEST-01667,0.2726767546333787,Model identified elevated combined risk,0
+TX-TEST-01668,0.004516629913451336,Foreign transaction without travel notice,0
+TX-TEST-01669,0.04888935745530407,Model identified elevated combined risk,0
+TX-TEST-01670,0.993561517987775,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01671,0.12344404943472394,Overnight transaction,0
+TX-TEST-01672,0.9948672352969803,Amount unusually high | New payee | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-01673,0.03160548848818077,Unknown device | Overnight transaction,0
+TX-TEST-01674,0.9957397197158403,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-01675,0.02340084550286428,Bank transfer,0
+TX-TEST-01676,0.004880223167839643,Model identified elevated combined risk,0
+TX-TEST-01677,0.004827140792120046,Foreign transaction without travel notice,0
+TX-TEST-01678,0.006546824685151713,Model identified elevated combined risk,0
+TX-TEST-01679,0.003985373414229879,Model identified elevated combined risk,0
+TX-TEST-01680,0.018166415207099808,Unknown device | Bank transfer,0
+TX-TEST-01681,0.03926164848066095,Model identified elevated combined risk,0
+TX-TEST-01682,0.15231113110857428,Model identified elevated combined risk,0
+TX-TEST-01683,0.003762159128515594,Model identified elevated combined risk,0
+TX-TEST-01684,0.00293699421885685,Multiple failed logins,0
+TX-TEST-01685,0.014970780676324522,Bank transfer,0
+TX-TEST-01686,0.004817791610024249,Model identified elevated combined risk,0
+TX-TEST-01687,0.02516385597797052,Model identified elevated combined risk,0
+TX-TEST-01688,0.040303813373137,Bank transfer,0
+TX-TEST-01689,0.0038193094758801264,Foreign transaction without travel notice,0
+TX-TEST-01690,0.1432471625582804,Model identified elevated combined risk,0
+TX-TEST-01691,0.002304268710832222,Unknown device,0
+TX-TEST-01692,0.003908166730597827,Model identified elevated combined risk,0
+TX-TEST-01693,0.08684041377930175,Model identified elevated combined risk,0
+TX-TEST-01694,0.00951007251996834,Model identified elevated combined risk,0
+TX-TEST-01695,0.0049243286199787085,Model identified elevated combined risk,0
+TX-TEST-01696,0.003734132941536744,Multiple failed logins,0
+TX-TEST-01697,0.027289759387010167,Model identified elevated combined risk,0
+TX-TEST-01698,0.008040332731486237,Model identified elevated combined risk,0
+TX-TEST-01699,0.0038182859541655277,Model identified elevated combined risk,0
+TX-TEST-01700,0.194497522591628,New payee | Bank transfer,0
+TX-TEST-01701,0.025558125078500613,Bank transfer,0
+TX-TEST-01702,0.005543041896627846,Model identified elevated combined risk,0
+TX-TEST-01703,0.05144171000118604,Model identified elevated combined risk,0
+TX-TEST-01704,0.009262414601311515,Model identified elevated combined risk,0
+TX-TEST-01705,0.004278700229817121,Model identified elevated combined risk,0
+TX-TEST-01706,0.021430204458530513,Bank transfer,0
+TX-TEST-01707,0.005276200291087102,Model identified elevated combined risk,0
+TX-TEST-01708,0.20059665480532626,Amount unusually high | Bank transfer,0
+TX-TEST-01709,0.024747110466452782,Model identified elevated combined risk,0
+TX-TEST-01710,0.023157910575113544,Bank transfer,0
+TX-TEST-01711,0.0076886445544461545,Model identified elevated combined risk,0
+TX-TEST-01712,0.10188004130052968,Model identified elevated combined risk,0
+TX-TEST-01713,0.006371600537355452,Model identified elevated combined risk,0
+TX-TEST-01714,0.008856592258874368,Model identified elevated combined risk,0
+TX-TEST-01715,0.004210542254652429,Model identified elevated combined risk,0
+TX-TEST-01716,0.036308327869337874,Model identified elevated combined risk,0
+TX-TEST-01717,0.0047750129311900915,Model identified elevated combined risk,0
+TX-TEST-01718,0.0032160845710884015,Unknown device,0
+TX-TEST-01719,0.995907174073233,Amount unusually high | New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-01720,0.034177877562660865,Multiple failed logins | Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-01721,0.9822233884586973,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-01722,0.9935876172070868,New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-01723,0.01242031449911202,Amount unusually high,0
+TX-TEST-01724,0.052376042141041156,Bank transfer,0
+TX-TEST-01725,0.9599865626667403,New payee | Multiple failed logins | Bank transfer,1
+TX-TEST-01726,0.04072846462796842,Model identified elevated combined risk,0
+TX-TEST-01727,0.00519002761346867,Model identified elevated combined risk,0
+TX-TEST-01728,0.006304455619564256,Model identified elevated combined risk,0
+TX-TEST-01729,0.1597947311540602,Model identified elevated combined risk,0
+TX-TEST-01730,0.04098821329952457,Foreign transaction without travel notice,0
+TX-TEST-01731,0.006304455619564256,Model identified elevated combined risk,0
+TX-TEST-01732,0.07066512696370944,Unknown device,0
+TX-TEST-01733,0.007450104259657446,Model identified elevated combined risk,0
+TX-TEST-01734,0.08614413112883992,Model identified elevated combined risk,0
+TX-TEST-01735,0.2058834261497259,New payee | Bank transfer,0
+TX-TEST-01736,0.040515321051062245,Bank transfer,0
+TX-TEST-01737,0.10409470484065392,Model identified elevated combined risk,0
+TX-TEST-01738,0.0628226511587598,Model identified elevated combined risk,0
+TX-TEST-01739,0.11107557810333586,Model identified elevated combined risk,0
+TX-TEST-01740,0.006857835663721792,Unknown device,0
+TX-TEST-01741,0.004706082205899495,Amount unusually high,0
+TX-TEST-01742,0.009272662339274913,Model identified elevated combined risk,0
+TX-TEST-01743,0.007412875089878285,Unknown device,0
+TX-TEST-01744,0.0306026361009108,Unknown device | Bank transfer,0
+TX-TEST-01745,0.05341270989778115,Model identified elevated combined risk,0
+TX-TEST-01746,0.010670280944770417,Model identified elevated combined risk,0
+TX-TEST-01747,0.9942708947441666,New payee | Multiple failed logins | Unknown device | Bank transfer | Overnight transaction,1
+TX-TEST-01748,0.09037089670959057,Overnight transaction,0
+TX-TEST-01749,0.1143344143094202,Overnight transaction,0
+TX-TEST-01750,0.12247592665432416,Overnight transaction,0
+TX-TEST-01751,0.9932192585560556,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01752,0.5763543872649423,Overnight transaction,0
+TX-TEST-01753,0.07959552979965186,Model identified elevated combined risk,0
+TX-TEST-01754,0.03396687897688238,Multiple failed logins,0
+TX-TEST-01755,0.03873417096236808,Model identified elevated combined risk,0
+TX-TEST-01756,0.006955037444544971,Model identified elevated combined risk,0
+TX-TEST-01757,0.04123926929141276,Bank transfer,0
+TX-TEST-01758,0.12480092252433181,Model identified elevated combined risk,0
+TX-TEST-01759,0.024369897961503618,Model identified elevated combined risk,0
+TX-TEST-01760,0.021696851522197545,Bank transfer,0
+TX-TEST-01761,0.02241836154052832,Bank transfer,0
+TX-TEST-01762,0.03650621906227598,Model identified elevated combined risk,0
+TX-TEST-01763,0.008118053163034065,Unknown device,0
+TX-TEST-01764,0.11037012765989145,Amount unusually high,0
+TX-TEST-01765,0.003200862617469208,Unknown device,0
+TX-TEST-01766,0.004731829833982837,Model identified elevated combined risk,0
+TX-TEST-01767,0.03771758569920178,Model identified elevated combined risk,0
+TX-TEST-01768,0.007995641926456699,Model identified elevated combined risk,0
+TX-TEST-01769,0.12518894038288622,Model identified elevated combined risk,0
+TX-TEST-01770,0.9926068456915301,New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-01771,0.037839980677326364,Model identified elevated combined risk,0
+TX-TEST-01772,0.005426671111218162,Model identified elevated combined risk,0
+TX-TEST-01773,0.008319588851332478,Model identified elevated combined risk,0
+TX-TEST-01774,0.005330492749753162,Model identified elevated combined risk,0
+TX-TEST-01775,0.0042759845437956405,Model identified elevated combined risk,0
+TX-TEST-01776,0.005160837377870814,Model identified elevated combined risk,0
+TX-TEST-01777,0.03014540746268569,Bank transfer,0
+TX-TEST-01778,0.011655171231308247,Model identified elevated combined risk,0
+TX-TEST-01779,0.16440239950585933,Model identified elevated combined risk,0
+TX-TEST-01780,0.025440499604751355,Bank transfer,0
+TX-TEST-01781,0.058414079762392726,Bank transfer,0
+TX-TEST-01782,0.03916537901567153,Model identified elevated combined risk,0
+TX-TEST-01783,0.003195501059882775,Multiple failed logins,0
+TX-TEST-01784,0.038252926952706885,Model identified elevated combined risk,0
+TX-TEST-01785,0.03824899001879369,Model identified elevated combined risk,0
+TX-TEST-01786,0.005424643549977533,Model identified elevated combined risk,0
+TX-TEST-01787,0.006836556284731811,Unknown device,0
+TX-TEST-01788,0.03711874052141605,Model identified elevated combined risk,0
+TX-TEST-01789,0.006296278605166779,Model identified elevated combined risk,0
+TX-TEST-01790,0.1060642541746491,Model identified elevated combined risk,0
+TX-TEST-01791,0.0888762293012646,Model identified elevated combined risk,0
+TX-TEST-01792,0.11077103790152944,Multiple failed logins | Bank transfer,0
+TX-TEST-01793,0.005187156278409033,Model identified elevated combined risk,0
+TX-TEST-01794,0.002038247501985201,Unknown device,0
+TX-TEST-01795,0.036826488523081666,Model identified elevated combined risk,0
+TX-TEST-01796,0.003480103478043463,Unknown device,0
+TX-TEST-01797,0.03486968699699795,Model identified elevated combined risk,0
+TX-TEST-01798,0.04198582257654238,Model identified elevated combined risk,0
+TX-TEST-01799,0.011387763515912827,Model identified elevated combined risk,0
+TX-TEST-01800,0.0407476818572985,Model identified elevated combined risk,0
+TX-TEST-01801,0.010222921549637873,Model identified elevated combined risk,0
+TX-TEST-01802,0.20376310547109613,New payee | Bank transfer,0
+TX-TEST-01803,0.09835627320227645,Multiple failed logins | Unknown device,0
+TX-TEST-01804,0.009070884534340223,Model identified elevated combined risk,0
+TX-TEST-01805,0.03131152321139733,Unknown device,0
+TX-TEST-01806,0.020847120487719067,Bank transfer,0
+TX-TEST-01807,0.026901660357980466,Bank transfer,0
+TX-TEST-01808,0.05070807978117621,Model identified elevated combined risk,0
+TX-TEST-01809,0.12532337884029793,Model identified elevated combined risk,0
+TX-TEST-01810,0.9971335033350761,Amount unusually high | Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01811,0.015147362207502409,Model identified elevated combined risk,0
+TX-TEST-01812,0.004588901784293401,Unknown device,0
+TX-TEST-01813,0.10446241582476218,Model identified elevated combined risk,0
+TX-TEST-01814,0.04627679008322724,Unknown device,0
+TX-TEST-01815,0.05436441854636078,Model identified elevated combined risk,0
+TX-TEST-01816,0.972575133752221,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-01817,0.00656559952934259,Model identified elevated combined risk,0
+TX-TEST-01818,0.05672810078846235,Model identified elevated combined risk,0
+TX-TEST-01819,0.006938413472677979,Model identified elevated combined risk,0
+TX-TEST-01820,0.14491735399302053,Model identified elevated combined risk,0
+TX-TEST-01821,0.15896412732206958,Model identified elevated combined risk,0
+TX-TEST-01822,0.028004331276849016,Multiple failed logins | Bank transfer,0
+TX-TEST-01823,0.015269186768475728,Model identified elevated combined risk,0
+TX-TEST-01824,0.008921016174131881,Multiple failed logins,0
+TX-TEST-01825,0.15508668555574026,Model identified elevated combined risk,0
+TX-TEST-01826,0.06122492365616984,Model identified elevated combined risk,0
+TX-TEST-01827,0.054011301751759284,Model identified elevated combined risk,0
+TX-TEST-01828,0.061111159119901504,Model identified elevated combined risk,0
+TX-TEST-01829,0.14187347798191707,Model identified elevated combined risk,0
+TX-TEST-01830,0.16890287965406736,Multiple failed logins,0
+TX-TEST-01831,0.009048048168490017,Model identified elevated combined risk,0
+TX-TEST-01832,0.011586680553544998,Model identified elevated combined risk,0
+TX-TEST-01833,0.0665215214902538,Model identified elevated combined risk,0
+TX-TEST-01834,0.033634726591604464,Bank transfer,0
+TX-TEST-01835,0.16136540071063743,Model identified elevated combined risk,0
+TX-TEST-01836,0.09803352412846014,Unknown device,0
+TX-TEST-01837,0.036516327745611706,Model identified elevated combined risk,0
+TX-TEST-01838,0.011972467943646576,Model identified elevated combined risk,0
+TX-TEST-01839,0.13182969756551363,Model identified elevated combined risk,0
+TX-TEST-01840,0.00625970634199933,Model identified elevated combined risk,0
+TX-TEST-01841,0.9958837344809754,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-01842,0.988976276221153,Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-01843,0.1370166304264544,Model identified elevated combined risk,0
+TX-TEST-01844,0.07663076255966644,Bank transfer,0
+TX-TEST-01845,0.05658223667462979,Model identified elevated combined risk,0
+TX-TEST-01846,0.016066614347677626,Model identified elevated combined risk,0
+TX-TEST-01847,0.006210583586902107,Model identified elevated combined risk,0
+TX-TEST-01848,0.017782525572525073,Model identified elevated combined risk,0
+TX-TEST-01849,0.1433496493241452,Model identified elevated combined risk,0
+TX-TEST-01850,0.10423819940552675,Unknown device,0
+TX-TEST-01851,0.01548346932715692,Model identified elevated combined risk,0
+TX-TEST-01852,0.05651126719420756,Model identified elevated combined risk,0
+TX-TEST-01853,0.0317306886763712,Bank transfer,0
+TX-TEST-01854,0.005437043056082718,Model identified elevated combined risk,0
+TX-TEST-01855,0.0317306886763712,Bank transfer,0
+TX-TEST-01856,0.0065500800579319125,Model identified elevated combined risk,0
+TX-TEST-01857,0.09575436102916465,Model identified elevated combined risk,0
+TX-TEST-01858,0.1718438406376261,Model identified elevated combined risk,0
+TX-TEST-01859,0.4641422140045046,New payee | Bank transfer,0
+TX-TEST-01860,0.9935868406202562,Amount unusually high | New payee | Multiple failed logins | Bank transfer | Overnight transaction,1
+TX-TEST-01861,0.9971545268262225,Amount unusually high | Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01862,0.9976535474977741,Multiple failed logins | Unknown device | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01863,0.9958548805329868,Multiple failed logins | Unknown device | Overnight transaction,1
+TX-TEST-01864,0.980704977668116,Amount unusually high | Foreign transaction without travel notice | Overnight transaction,1
+TX-TEST-01865,0.8608052495088299,Overnight transaction,1
+TX-TEST-01866,0.005170346214532481,Overnight transaction,0
+TX-TEST-01867,0.03289727776550859,Overnight transaction,0
+TX-TEST-01868,0.9939761167886358,Amount unusually high | Multiple failed logins | Unknown device | Foreign transaction without travel notice,1
+TX-TEST-01869,0.05545328398355356,Model identified elevated combined risk,0
+TX-TEST-01870,0.9888479014497087,Multiple failed logins | Unknown device,1
+TX-TEST-01871,0.014120840879637594,Unknown device,0
+TX-TEST-01872,0.006509781897171609,Model identified elevated combined risk,0
+TX-TEST-01873,0.01225405713965203,Model identified elevated combined risk,0
+TX-TEST-01874,0.13535802615487758,Model identified elevated combined risk,0
+TX-TEST-01875,0.05719434006154068,Model identified elevated combined risk,0
+TX-TEST-01876,0.09156506662645603,New payee | Bank transfer,0
+TX-TEST-01877,0.03196830246420775,Bank transfer,0
+TX-TEST-01878,0.027397968342051573,Bank transfer,0
+TX-TEST-01879,0.05441269066081623,Model identified elevated combined risk,0
+TX-TEST-01880,0.05453438378250935,Model identified elevated combined risk,0
+TX-TEST-01881,0.06476626534850807,Model identified elevated combined risk,0
+TX-TEST-01882,0.05554554639370009,Model identified elevated combined risk,0
+TX-TEST-01883,0.006640579089720619,Model identified elevated combined risk,0
+TX-TEST-01884,0.005440436365412529,Foreign transaction without travel notice,0
+TX-TEST-01885,0.033974495335711084,Model identified elevated combined risk,0
+TX-TEST-01886,0.2719191688892236,Model identified elevated combined risk,0
+TX-TEST-01887,0.006932935470770963,Model identified elevated combined risk,0
+TX-TEST-01888,0.1523740858560041,Model identified elevated combined risk,0
+TX-TEST-01889,0.07444631624501503,Multiple failed logins,0
+TX-TEST-01890,0.05654816429848841,Model identified elevated combined risk,0
+TX-TEST-01891,0.988175216249505,Amount unusually high | New payee | Multiple failed logins | Bank transfer,1
+TX-TEST-01892,0.03430510674377913,Model identified elevated combined risk,0
+TX-TEST-01893,0.0562085624866038,Model identified elevated combined risk,0
+TX-TEST-01894,0.006686321643697981,Model identified elevated combined risk,0
+TX-TEST-01895,0.013776013362128553,Model identified elevated combined risk,0
+TX-TEST-01896,0.1696552438857329,Model identified elevated combined risk,0
+TX-TEST-01897,0.011634719410773197,Model identified elevated combined risk,0
+TX-TEST-01898,0.0611203377484656,Model identified elevated combined risk,0
+TX-TEST-01899,0.006799801570848977,Model identified elevated combined risk,0
+TX-TEST-01900,0.27803959484417706,Model identified elevated combined risk,0
+TX-TEST-01901,0.060895176994900296,Model identified elevated combined risk,0
+TX-TEST-01902,0.07708813563777052,Model identified elevated combined risk,0
+TX-TEST-01903,0.016467489776616693,Model identified elevated combined risk,0
+TX-TEST-01904,0.1915881514834814,Model identified elevated combined risk,0
+TX-TEST-01905,0.015823595040664152,Model identified elevated combined risk,0
+TX-TEST-01906,0.15910982249327432,Model identified elevated combined risk,0
+TX-TEST-01907,0.013680366247301163,Unknown device,0
+TX-TEST-01908,0.011890083479147193,Model identified elevated combined risk,0
+TX-TEST-01909,0.013749023235630192,Unknown device,0
+TX-TEST-01910,0.15734276268018912,Model identified elevated combined risk,0
+TX-TEST-01911,0.10985194594061795,Unknown device,0
+TX-TEST-01912,0.0065642064764351565,Model identified elevated combined risk,0
+TX-TEST-01913,0.006670035456964672,Model identified elevated combined risk,0
+TX-TEST-01914,0.006205198870919025,Model identified elevated combined risk,0
+TX-TEST-01915,0.00639144371224497,Model identified elevated combined risk,0
+TX-TEST-01916,0.129324716446118,Amount unusually high,0
+TX-TEST-01917,0.008853118661089569,Model identified elevated combined risk,0
+TX-TEST-01918,0.008590670521816317,Foreign transaction without travel notice,0
+TX-TEST-01919,0.004594098600661751,Unknown device,0
+TX-TEST-01920,0.17014665968378595,Unknown device,0
+TX-TEST-01921,0.12849812830762444,Model identified elevated combined risk,0
+TX-TEST-01922,0.05662355970807901,Model identified elevated combined risk,0
+TX-TEST-01923,0.011404359250769823,Model identified elevated combined risk,0
+TX-TEST-01924,0.03344044485167523,Bank transfer,0
+TX-TEST-01925,0.9896612842740495,Amount unusually high | New payee | Unknown device | Bank transfer,1
+TX-TEST-01926,0.01602052514332765,Model identified elevated combined risk,0
+TX-TEST-01927,0.05554680313705638,Model identified elevated combined risk,0
+TX-TEST-01928,0.06472609357864101,Multiple failed logins | Foreign transaction without travel notice,0
+TX-TEST-01929,0.060728572258332926,Model identified elevated combined risk,0
+TX-TEST-01930,0.01284456921882075,Model identified elevated combined risk,0
+TX-TEST-01931,0.07918296248137112,Multiple failed logins,0
+TX-TEST-01932,0.007164817929828848,Model identified elevated combined risk,0
+TX-TEST-01933,0.005511809536351923,Model identified elevated combined risk,0
+TX-TEST-01934,0.04674475392147864,Unknown device,0
+TX-TEST-01935,0.058074872488436284,Model identified elevated combined risk,0
+TX-TEST-01936,0.048432599657008746,Model identified elevated combined risk,0
+TX-TEST-01937,0.03115542080901286,Bank transfer,0
+TX-TEST-01938,0.21366573348518902,Model identified elevated combined risk,0
+TX-TEST-01939,0.06257050351622738,Bank transfer,0
+TX-TEST-01940,0.05753594109159673,Model identified elevated combined risk,0
+TX-TEST-01941,0.03264369402159717,Bank transfer,0
+TX-TEST-01942,0.08916253293448893,Unknown device | Foreign transaction without travel notice,0
+TX-TEST-01943,0.025728097358214554,Overnight transaction,0
+TX-TEST-01944,0.12742034864861868,Model identified elevated combined risk,0
+TX-TEST-01945,0.01833790457119829,Bank transfer,0
+TX-TEST-01946,0.029671840458993067,Bank transfer,0
+TX-TEST-01947,0.008299530700191486,Amount unusually high,0
+TX-TEST-01948,0.014623599705162745,Model identified elevated combined risk,0
+TX-TEST-01949,0.12970747954738931,Model identified elevated combined risk,0
+TX-TEST-01950,0.9861553429852673,New payee | Multiple failed logins | Unknown device | Bank transfer,1
+TX-TEST-01951,0.00936992612494235,Model identified elevated combined risk,0
+TX-TEST-01952,0.006373426664598487,Model identified elevated combined risk,0
+TX-TEST-01953,0.015129575607889655,Model identified elevated combined risk,0
+TX-TEST-01954,0.00915513370963899,Model identified elevated combined risk,0
+TX-TEST-01955,0.006488990566526447,Model identified elevated combined risk,0
+TX-TEST-01956,0.048364088344585325,Model identified elevated combined risk,0
+TX-TEST-01957,0.009736632646642932,Multiple failed logins,0
+TX-TEST-01958,0.006938322264943157,Model identified elevated combined risk,0
+TX-TEST-01959,0.007061448522340774,Model identified elevated combined risk,0
+TX-TEST-01960,0.012030824182586428,Model identified elevated combined risk,0
+TX-TEST-01961,0.05940143089392632,Model identified elevated combined risk,0
+TX-TEST-01962,0.006020486517470664,Model identified elevated combined risk,0
+TX-TEST-01963,0.012558691727426512,Model identified elevated combined risk,0
+TX-TEST-01964,0.006672613660635945,Model identified elevated combined risk,0
+TX-TEST-01965,0.4924409878586367,New payee | Bank transfer,0
+TX-TEST-01966,0.056047710013648167,Model identified elevated combined risk,0
+TX-TEST-01967,0.009736632646642932,Multiple failed logins,0
+TX-TEST-01968,0.005820770216777034,Model identified elevated combined risk,0
+TX-TEST-01969,0.16744439449388887,Model identified elevated combined risk,0
+TX-TEST-01970,0.005306415844947271,Foreign transaction without travel notice,0
+TX-TEST-01971,0.007959968720672148,Model identified elevated combined risk,0
+TX-TEST-01972,0.062288641242481,Model identified elevated combined risk,0
+TX-TEST-01973,0.03089925246599635,Bank transfer,0
+TX-TEST-01974,0.9871072768549827,Multiple failed logins | Unknown device,1
+TX-TEST-01975,0.06041228881561371,Model identified elevated combined risk,0
+TX-TEST-01976,0.0066250894448667,Model identified elevated combined risk,0
+TX-TEST-01977,0.005532148103396626,Model identified elevated combined risk,0
+TX-TEST-01978,0.04018196500598177,Foreign transaction without travel notice,0
+TX-TEST-01979,0.006452719608008408,Model identified elevated combined risk,0
+TX-TEST-01980,0.984068391630625,Multiple failed logins | Unknown device,1
+TX-TEST-01981,0.007234971326033572,Model identified elevated combined risk,0
+TX-TEST-01982,0.06520099593758434,Bank transfer,0
+TX-TEST-01983,0.05808662648146467,Model identified elevated combined risk,0
+TX-TEST-01984,0.012802911167402457,Model identified elevated combined risk,0
+TX-TEST-01985,0.058963695637914856,Model identified elevated combined risk,0
+TX-TEST-01986,0.08174250103773457,Bank transfer,0
+TX-TEST-01987,0.05488777033931592,Model identified elevated combined risk,0
+TX-TEST-01988,0.05440868061836303,Model identified elevated combined risk,0
+TX-TEST-01989,0.14692177625667294,Model identified elevated combined risk,0
+TX-TEST-01990,0.006188862687854895,Model identified elevated combined risk,0
+TX-TEST-01991,0.130771894758884,Model identified elevated combined risk,0
+TX-TEST-01992,0.8928506157300108,Amount unusually high | Foreign transaction without travel notice,1
+TX-TEST-01993,0.012685604279353916,Model identified elevated combined risk,0
+TX-TEST-01994,0.130771894758884,Model identified elevated combined risk,0
+TX-TEST-01995,0.006335617127385529,Model identified elevated combined risk,0
+TX-TEST-01996,0.036775244869489826,Foreign transaction without travel notice | Bank transfer,0
+TX-TEST-01997,0.05816043199436108,Model identified elevated combined risk,0
+TX-TEST-01998,0.2753757653591425,New payee | Bank transfer,0
+TX-TEST-01999,0.02334580603757583,Multiple failed logins,0
+TX-TEST-02000,0.003177705540231057,Model identified elevated combined risk,0

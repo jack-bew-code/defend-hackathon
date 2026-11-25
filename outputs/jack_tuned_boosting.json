@@ -1,0 +1,13 @@
+{
+  "name": "Jack – tuned boosting + red-flag features",
+  "threshold": 0.20,
+  "validation": {
+    "description": "Last 2,000 training transactions (31 Jul - 31 Aug 2026), held out",
+    "points": 1215,
+    "max_points": 1500,
+    "caught": 139,
+    "false_alarms": 13,
+    "missed": 11
+  },
+  "notes": "Gradient boosting with smaller, slower-learning trees plus red-flag combinations (unknown device x failed logins, abroad without travel notice, transfer to new payee, round £100 amounts). Across 4 time-based test blocks (late May - Aug): 3,925 points vs 3,795 for the original settings."
+}
