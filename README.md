@@ -43,6 +43,35 @@ All data is synthetic. `train.csv` has an extra `is_fraud` column; `test.csv` do
 
 
 ---------------------------------Team based work-------------------------------
+---
+
+## Team workflow
+
+### One-time setup
+```bash
+git clone https://github.com/jack-bew-code/defend-hackathon.git
+cd defend-hackathon
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+nbstripout --install          # strips notebook outputs on commit
+```
+
+### Every task
+```bash
+git checkout main && git pull                 # start from latest main
+git checkout -b yourname/short-task-name      # your own branch
+# ...work, commit small and often...
+git push -u origin yourname/short-task-name
+gh pr create --fill                           # or open a PR on github.com
+```
+`main` is protected: changes go in through pull requests only.
+
+### Rules
+- **Your own notebook:** `notebooks/<yourname>_<topic>.ipynb`. Don't edit other people's.
+- **Shared code goes in `src/`** (`src/data.py`, `src/features.py`) and gets imported, not copy-pasted.
+- Load data with `from src.data import load_train, load_test` so paths work from any folder
+  (in `notebooks/`, first run `import sys; sys.path.append('..')`).
+- Keep branches short-lived. Merge within hours, and `git pull origin main` into your branch if main moves on.
 
 ## Gradient boosting submission
 

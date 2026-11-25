@@ -7,8 +7,8 @@ from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.tree import DecisionTreeClassifier
 from threadpoolctl import threadpool_limits
 
+from src.data import ROOT, load_test, load_train
 
-ROOT = Path(__file__).resolve().parent
 THRESHOLD = 0.20
 HOLDOUT_SIZE = 2_000
 TARGET = "is_fraud"
@@ -121,8 +121,8 @@ def main():
     parser = argparse.ArgumentParser(description="Validate the fraud model and export predictions.")
     parser.add_argument("--output", type=Path, default=ROOT / "test_predictions.csv")
     args = parser.parse_args()
-    train = pd.read_csv(ROOT / "train.csv")
-    test = pd.read_csv(ROOT / "test.csv")
+    train = load_train()
+    test = load_test()
     with threadpool_limits(limits=2):
         validate_models(train)
         output = make_submission(train, test)
