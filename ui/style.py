@@ -37,6 +37,11 @@ CSS = f"""
 .kv div {{ background: #0F1A30; border: 1px solid {BORDER}; border-radius: 10px; padding: .55rem .75rem; }}
 .kv span {{ display: block; color: {MUTED}; font-size: .78rem; }}
 .kv strong {{ font-size: 1.05rem; }}
+div[data-testid="stMetric"] {{
+  background: {CARD}; border: 1px solid {BORDER}; border-radius: 14px; padding: .8rem 1rem;
+}}
+div[data-testid="stMetric"] label p {{ color: {MUTED}; font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }}
+div[data-testid="stMetricValue"] {{ font-size: 1.7rem; }}
 section[data-testid="stSidebar"] .stMarkdown p {{ color: {MUTED}; }}
 </style>
 """

@@ -103,6 +103,56 @@ def top_reasons(counts: pd.Series, n: int = 8) -> go.Figure:
     return _layout(fig, "Most common reasons the model gave", height=60 + 42 * len(top))
 
 
+def cutoff_curve(curve: pd.DataFrame, chosen: float, recommended: float) -> go.Figure:
+    """Points on the holdout at every cutoff, for the current settings (single series)."""
+    fig = go.Figure(go.Scatter(
+        x=curve["cutoff"], y=curve["points"], mode="lines", line=dict(color=FRAUD, width=2),
+        customdata=curve[["caught", "false_alarms", "missed"]].to_numpy(),
+        hovertemplate="Cutoff %{x:.2f}: <b>%{y:,} pts</b><br>%{customdata[0]} caught · "
+                      "%{customdata[1]} false alarms · %{customdata[2]} missed<extra></extra>",
+    ))
+    best = curve.loc[curve["points"].idxmax()]
+    same = abs(chosen - recommended) < 1e-9
+    marks = [(chosen, "Your cutoff (recommended)" if same else "Your cutoff", TEXT)]
+    if not same:
+        marks.append((recommended, "Recommended", GENUINE))
+    if all(abs(best.cutoff - x) > 1e-9 for x, _, _ in marks):
+        marks.append((best.cutoff, "Best on this test", MUTED))
+    # Alternate labels above / below the line so they never sit on top of each other
+    for i, (x, label, color) in enumerate(marks):
+        y = curve.loc[(curve["cutoff"] - x).abs().idxmin(), "points"]
+        fig.add_trace(go.Scatter(x=[x], y=[y], mode="markers", marker=dict(size=10, color=color,
+                                 line=dict(color="#0B1426", width=2)), hoverinfo="skip"))
+        fig.add_annotation(x=x, y=y, text=f"{label}: <b>{y:,.0f}</b>", showarrow=True,
+                           arrowcolor=MUTED, arrowwidth=1, ax=0, ay=[48, -48, 80][i % 3],
+                           font=dict(color=TEXT, size=12), bgcolor="#0F1A30", bordercolor=BORDER)
+    lo, hi = curve["points"].min(), curve["points"].max()
+    fig.update_yaxes(range=[lo - (hi - lo) * 0.35, hi + (hi - lo) * 0.45])
+    fig.update_xaxes(title=dict(text="Fraud cutoff", font=dict(color=MUTED)), tickformat=".2f")
+    fig.update_yaxes(title=dict(text="Points", font=dict(color=MUTED)))
+    fig.update_layout(hovermode="x unified")
+    return _layout(fig, "Points at every cutoff (same trained model)", height=360)
+
+
+def runs_bar(history: pd.DataFrame) -> go.Figure:
+    """Points for each run this session; the recommended run is green."""
+    colors = [GENUINE if r else FRAUD for r in history["recommended"]]
+    fig = go.Figure(go.Bar(
+        x=history["run"], y=history["points"], marker=dict(color=colors, cornerradius=4),
+        text=history["points"], textposition="outside", textfont=dict(color=TEXT),
+        customdata=history[["caught", "false_alarms", "missed", "changes"]].to_numpy(),
+        hovertemplate="%{x}: <b>%{y:,} pts</b><br>%{customdata[0]} caught · %{customdata[1]} false alarms"
+                      " · %{customdata[2]} missed<br>%{customdata[3]}<extra></extra>",
+    ))
+    lo, hi = history["points"].min(), history["points"].max()
+    pad = max((hi - lo) * 0.4, 30)
+    fig.update_yaxes(range=[max(0, lo - pad), hi + pad])
+    if len(history) < 6:  # keep bars slim when there are only a few runs
+        fig.update_traces(width=0.5)
+        fig.update_xaxes(range=[-0.75, 5.25])
+    return _layout(fig, "Points per run (green = recommended settings)", height=320)
+
+
 def overlap(both: int, only_a: int, only_b: int, name_a: str, name_b: str) -> go.Figure:
     labels = [f"Only {name_a}", "Both models", f"Only {name_b}"]
     fig = go.Figure(go.Bar(
