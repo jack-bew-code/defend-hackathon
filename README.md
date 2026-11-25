@@ -47,6 +47,19 @@ All data is synthetic. `train.csv` has an extra `is_fraud` column; `test.csv` do
 ---------------------------------Team based work-------------------------------
 ---
 
+## Demo app (UI)
+
+A Streamlit app that **displays** the models' predictions for the judges. It never trains or changes a model.
+
+```bash
+streamlit run app.py        # opens http://localhost:8501
+```
+
+- Models: save predictions to `outputs/<name>.csv` (see [outputs/README.md](outputs/README.md)) and they appear in the app's **Model** dropdown.
+- UI code: `app.py`, `ui/` (data loading, charts, styling), `.streamlit/config.toml` (theme).
+
+---
+
 ## Team workflow
 
 ### One-time setup

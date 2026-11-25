@@ -1,0 +1,13 @@
+{
+  "name": "IJ – decision tree (fraud_detection/config.json)",
+  "threshold": 0.20,
+  "validation": {
+    "description": "2,000 practice transactions picked at random from training (not the most recent month, so not directly comparable with the other models' holdouts)",
+    "points": 1260,
+    "max_points": 1600,
+    "caught": 147,
+    "false_alarms": 16,
+    "missed": 13
+  },
+  "notes": "Decision tree (max depth 6) on transaction signals plus a late-night flag. Settings live in fraud_detection/config.json on ijBranch: prediction method (decision tree or weighted rules), tree depth, 20% probability cutoff and rule weights."
+}
