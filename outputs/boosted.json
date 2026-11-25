@@ -1,5 +1,5 @@
 {
-  "name": "Gradient boosting (fraud/boosted-submission)",
+  "name": "Submitted model – gradient boosting (predict_fraud.py)",
   "threshold": 0.20,
   "validation": {
     "description": "Last 2,000 training transactions (31 Jul - 31 Aug 2026), held out",

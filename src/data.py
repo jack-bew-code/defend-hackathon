@@ -1,6 +1,6 @@
 """Shared data loading. Use this from any notebook so file paths always work.
 
-    import sys; sys.path.append('..')   # only needed inside notebooks/
+    import sys; sys.path.append('..')   # only needed when running from a subfolder
     from src.data import load_train, load_test
 """
 from pathlib import Path

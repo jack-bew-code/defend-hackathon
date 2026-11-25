@@ -4,3 +4,9 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 /test_predictions.csv
+.vscode/
+.streamlit/secrets.toml
+# files the experiment scripts write next to themselves
+experiments/ij_decision_tree/*_predictions.csv
+experiments/ij_decision_tree/genuine_averages.json
+.claude/

@@ -1,0 +1,77 @@
+{
+  "practice_rows": 2000,
+  "random_state": 0,
+  "prediction_method": "decision_tree",
+  "decision_tree": {
+    "max_depth": 6,
+    "probability_threshold": 0.2
+  },
+  "rules": {
+    "threshold": 2,
+    "items": [
+      {
+        "name": "Unknown device",
+        "feature": "unknown_device",
+        "operator": "eq",
+        "value": 1,
+        "weight": 1
+      },
+      {
+        "name": "5+ failed logins",
+        "feature": "failed_logins",
+        "operator": "gte",
+        "value": 5,
+        "weight": 1
+      },
+      {
+        "name": "New payee",
+        "feature": "new_payee",
+        "operator": "eq",
+        "value": 1,
+        "weight": 1
+      },
+      {
+        "name": "Amount 2000 or more",
+        "feature": "amount_gbp",
+        "operator": "gte",
+        "value": 2000,
+        "weight": 1
+      },
+      {
+        "name": "Large amount relative to usual spend",
+        "feature": "amount_vs_typical",
+        "operator": "gte",
+        "value": 0.5,
+        "weight": 1
+      },
+      {
+        "name": "Late-night transaction",
+        "feature": "timestamp_is_late_night",
+        "operator": "eq",
+        "value": 1,
+        "weight": 2
+      },
+      {
+        "name": "Bank transfer",
+        "feature": "transaction_type",
+        "operator": "eq",
+        "value": "BANK_TRANSFER",
+        "weight": 1
+      },
+      {
+        "name": "Online card transaction",
+        "feature": "transaction_type",
+        "operator": "eq",
+        "value": "CARD_ONLINE",
+        "weight": 1
+      },
+      {
+        "name": "Merchant outside the UK",
+        "feature": "merchant_country",
+        "operator": "ne",
+        "value": "GB",
+        "weight": 1
+      }
+    ]
+  }
+}

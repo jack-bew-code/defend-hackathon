@@ -16,7 +16,7 @@ git add outputs/ && git commit -m "Update <model-name> predictions"
 | `is_flagged` | yes | 1 = fraud, 0 = genuine |
 | `reasons` | optional | e.g. `New payee: 1 \| Amount (GBP): 1200` |
 | `risk` | optional | fraud probability 0-1, adds risk bars and sorting |
-| `risk_score` | optional | same as `risk` but 0-100 (used if there is no `risk` column) |
+| `risk_score` | optional | same as `risk`, on a 0-1 or 0-100 scale (used if there is no `risk` column) |
 
 **Optional `<model-name>.json`** next to the CSV, shown on the Overview page:
 ```json

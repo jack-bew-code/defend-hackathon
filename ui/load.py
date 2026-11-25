@@ -55,8 +55,9 @@ def _load(name: str, _mtime_key: float):
     if missing:
         return None, {}, f"`{path.name}` is missing column(s): {', '.join(sorted(missing))}"
 
-    if "risk" not in preds.columns and "risk_score" in preds.columns:  # 0-100 scale (IJ's model)
-        preds["risk"] = pd.to_numeric(preds["risk_score"], errors="coerce") / 100
+    if "risk" not in preds.columns and "risk_score" in preds.columns:
+        score = pd.to_numeric(preds["risk_score"], errors="coerce")
+        preds["risk"] = score / 100 if score.max() > 1 else score  # 0-100 (IJ) or 0-1 (Chris)
     cols = ["transaction_id", "is_flagged"] + [c for c in OPTIONAL if c in preds.columns]
     preds = preds[cols].copy()
     preds["is_flagged"] = preds["is_flagged"].fillna(0).astype(int)

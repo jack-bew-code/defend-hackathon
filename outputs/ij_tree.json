@@ -1,5 +1,5 @@
 {
-  "name": "IJ – decision tree (fraud_detection/config.json)",
+  "name": "IJ – configurable decision tree",
   "threshold": 0.20,
   "validation": {
     "description": "2,000 practice transactions picked at random from training (not the most recent month, so not directly comparable with the other models' holdouts)",
