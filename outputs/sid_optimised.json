@@ -1,0 +1,13 @@
+{
+  "name": "Sid – optimised fraud-pattern features (sid/branch)",
+  "threshold": 0.20,
+  "validation": {
+    "description": "Last 2,000 training transactions (31 Jul - 31 Aug 2026), held out",
+    "points": 1235,
+    "max_points": 1500,
+    "caught": 140,
+    "false_alarms": 13,
+    "missed": 10
+  },
+  "notes": "Gradient boosting on hand-built fraud patterns (night-time, account takeover = unknown device + 3+ failed logins, abroad without travel notice, transfer to a new payee), leaving out columns with no fraud signal. Monthly backtest Jun-Aug: 3,905 points (441 caught, 61 false alarms, 20 missed)."
+}

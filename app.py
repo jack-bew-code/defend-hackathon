@@ -8,30 +8,12 @@ import streamlit as st
 
 from ui import charts
 from ui import playground as pg
-from ui.load import list_models, load_model, reason_counts, split_reasons
+from ui.load import (ACCOUNT_LABELS, COUNTRY_LABELS, TYPE_LABELS, list_models, load_model,
+                     model_label, pretty_reasons, reason_counts)
 from ui.style import FRAUD, GENUINE, MUTED, cards, chips, inject, key_values
 
 st.set_page_config(page_title="Fraud Radar", page_icon="🛡️", layout="wide")
 inject()
-
-TYPE_LABELS = {"CARD_IN_STORE": "Card in store", "CARD_ONLINE": "Card online", "BANK_TRANSFER": "Bank transfer"}
-ACCOUNT_LABELS = {"STUDENT": "Student", "CURRENT": "Current", "PREMIUM": "Premium"}
-COUNTRY_LABELS = {"GB": "UK", "FR": "France", "ES": "Spain", "US": "USA"}
-
-
-def pretty_reasons(text: str) -> list[tuple[str, str]]:
-    """Make the model's reason text readable: codes -> words, 1/0 -> yes/no."""
-    out = []
-    for label, value in split_reasons(text):
-        value = TYPE_LABELS.get(value, ACCOUNT_LABELS.get(value, COUNTRY_LABELS.get(value, value)))
-        if label.lower() in {"new payee", "unknown device", "foreign transaction", "travel notice"}:
-            value = {"1": "yes", "0": "no"}.get(value, value)
-        elif label.startswith("Amount (GBP)"):
-            label, value = "Amount", f"£{float(value):,.0f}" if value.replace(".", "", 1).isdigit() else value
-        elif label == "Transaction hour" and value.isdigit():
-            value = f"{int(value):02d}:00"
-        out.append((label, value))
-    return out
 
 
 SIGNALS = {
@@ -50,7 +32,7 @@ with st.sidebar:
     if not models:
         st.error("No prediction files in `outputs/` yet. See `outputs/README.md`.")
         st.stop()
-    model = st.selectbox("Model", models, help="Every CSV in outputs/ appears here.")
+    model = st.selectbox("Model", models, format_func=model_label, help="Every CSV in outputs/ appears here.")
 
 df, info, error = load_model(model)
 if error:
@@ -211,7 +193,7 @@ with tab_compare:
         st.info("Only one model so far. When teammates save another predictions CSV in `outputs/`, "
                 "you can compare which transactions each model flags here.")
     else:
-        other = st.selectbox("Compare with", others)
+        other = st.selectbox("Compare with", others, format_func=model_label)
         df_b, info_b, err_b = load_model(other)
         if err_b:
             st.error(err_b)
@@ -232,8 +214,10 @@ with tab_compare:
                 st.markdown("#### Where they disagree")
                 show = df[df.transaction_id.isin(diff)][["transaction_id", "amount_gbp", "transaction_type",
                                                          "merchant_country"]].copy()
-                show["Flagged by"] = show.transaction_id.map(
-                    dict(zip(merged.transaction_id, merged.is_flagged_a.map({1: model, 0: other}))))
+                show["transaction_type"] = show.transaction_type.map(TYPE_LABELS).fillna(show.transaction_type)
+                show["merchant_country"] = show.merchant_country.map(COUNTRY_LABELS).fillna(show.merchant_country)
+                show["Flagged by"] = show.transaction_id.map(dict(zip(
+                    merged.transaction_id, merged.is_flagged_a.map({1: "Only " + model, 0: "Only " + other}))))
                 st.dataframe(show.rename(columns={"transaction_id": "ID", "amount_gbp": "Amount",
                                                   "transaction_type": "Type", "merchant_country": "Country"}),
                              hide_index=True, width="stretch",
